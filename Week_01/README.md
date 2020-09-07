@@ -4,7 +4,7 @@
 |#|Title|Solutions|
 |---|---|------|
 |70|[climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs) | 递推([Go](70/climbing_stairs.go),[Py](70/climbing_stairs.py))|
-|11|[container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water) | 双指针([Go](11/container_with_most_water.go),[Py](11/container_with_most_water.go))|
+|11|[container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water) | 双指针([Go](11/container_with_most_water.go),[Py](11/container_with_most_water.py))|
 
 
 
