@@ -7,6 +7,7 @@
 |11|[container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water) | 双指针([Go](11/container_with_most_water.go),[Py](11/container_with_most_water.py))|
 |283|[move-zeroes](https://leetcode-cn.com/problems/move-zeroes)| 统计0的个数([Go](283/move_zeros.go),[Py](283/move_zeros.py)), 快慢指针([Go](283/move_zeros.go))|
 |1|[two-sum](https://leetcode-cn.com/problems/two-sum)| 先排序后双指针夹逼([Go](1/two_sum.go)), 字典缓存差值的索引([Go](1/two_sum_2.go),[Py](1/two_sum.py))|
+|15|[3sum](https://leetcode-cn.com/problems/3sum)| 先排序后双指针夹逼([Go](15/3sum_2.go),[Py](15/3sum.py)), 字典缓存差值的索引([Go](15/3sum.go))|
 
 
 
@@ -28,3 +29,7 @@
 ### 1. two-sum
 
 计算差值是否在字典里，如果是则已找到，否则将当前值存入字典
+
+### 15. 3sum
+
+先排序，然后快慢指指针夹逼，另外要注意去重
