@@ -5,7 +5,9 @@
 |---|---|------|
 |70|[climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs) | 递推([Go](70/climbing_stairs.go),[Py](70/climbing_stairs.py))|
 |11|[container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water) | 双指针([Go](11/container_with_most_water.go),[Py](11/container_with_most_water.py))|
-|283|[move-zeroes](https://leetcode-cn.com/problems/move-zeroes) | 统计0的个数([Go](283/move_zeros.go),[Py](283/move_zeros.py)), 快慢指针([Go](283/move_zeros.go))|
+|283|[move-zeroes](https://leetcode-cn.com/problems/move-zeroes)| 统计0的个数([Go](283/move_zeros.go),[Py](283/move_zeros.py)), 快慢指针([Go](283/move_zeros.go))|
+|1|[two-sum](https://leetcode-cn.com/problems/two-sum)| 先排序后双指针夹逼([Go](1/two_sum.go)), 字典缓存差值的索引([Go](1/two_sum_2.go),[Py](1/two_sum.py))|
+
 
 
 
@@ -22,3 +24,7 @@
 
 1. 统计0的个数，遇到非0时 nums[i-count] = nums[i] 
 2. 慢指针指向非0元素
+
+### 1. two-sum
+
+计算差值是否在字典里，如果是则已找到，否则将当前值存入字典
