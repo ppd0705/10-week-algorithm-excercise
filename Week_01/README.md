@@ -9,6 +9,7 @@
 |1|[two-sum](https://leetcode-cn.com/problems/two-sum)| 先排序后双指针夹逼([Go](1/two_sum.go)), 字典缓存差值的索引([Go](1/two_sum_2.go),[Py](1/two_sum.py))|
 |15|[3sum](https://leetcode-cn.com/problems/3sum)| 先排序后双指针夹逼([Go](15/3sum_2.go),[Py](15/3sum.py)), 字典缓存差值的索引([Go](15/3sum.go))|
 |206|[reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list)| 迭代([Go](206/reverse_linked_list.go),[Py](206/reverse_linked_list.py)), 递归([Go](206/reverse_linked_list2.go),[Py](206/reverse_linked_list2.py))|
+|24|[swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs)| 迭代([Go](24/swap_nodes_in_pairs2.go),[Py](24/swap_nodes_in_pairs2.py)), 递归([Go](24/swap_nodes_in_pairs.go),[Py](24/swap_nodes_in_pairs.py))|
 
 
 
@@ -40,3 +41,8 @@
 
 1. 迭代法：使用一个指正指向最新的head
 2. 递归法：比较难以理解，`head.next.next = head; head.next = None`
+
+### 24. swap-nodes-in-pairs
+
+1. 迭代法：构造一个dummy node 当前置节点
+2. 递归法
