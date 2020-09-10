@@ -8,6 +8,7 @@
 |283|[move-zeroes](https://leetcode-cn.com/problems/move-zeroes)| 统计0的个数([Go](283/move_zeros.go),[Py](283/move_zeros.py)), 快慢指针([Go](283/move_zeros.go))|
 |1|[two-sum](https://leetcode-cn.com/problems/two-sum)| 先排序后双指针夹逼([Go](1/two_sum.go)), 字典缓存差值的索引([Go](1/two_sum_2.go),[Py](1/two_sum.py))|
 |15|[3sum](https://leetcode-cn.com/problems/3sum)| 先排序后双指针夹逼([Go](15/3sum_2.go),[Py](15/3sum.py)), 字典缓存差值的索引([Go](15/3sum.go))|
+|206|[reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list)| 迭代([Go](206/reverse_linked_list.go),[Py](206/reverse_linked_list.py)), 递归([Go](206/reverse_linked_list2.go),[Py](206/reverse_linked_list2.py))|
 
 
 
@@ -33,3 +34,9 @@
 ### 15. 3sum
 
 先排序，然后快慢指指针夹逼，另外要注意去重
+
+
+### 206. reverse linked list
+
+1. 迭代法：使用一个指正指向最新的head
+2. 递归法：比较难以理解，`head.next.next = head; head.next = None`
