@@ -12,7 +12,7 @@
 |24|[swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs)| 迭代([Go](24/swap_nodes_in_pairs2.go),[Py](24/swap_nodes_in_pairs2.py)), 递归([Go](24/swap_nodes_in_pairs.go),[Py](24/swap_nodes_in_pairs.py))|
 |21|[merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists) | 迭代([Go](21/merge_two_sorted_lists.go), [Py](21/merge_two_sorted_lists.py)), 递归([Go](21/merge_two_sorted_lists2.go),[Py](21/merge_two_sorted_lists2.py)|
 |141|[linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle) | 哈希([Go](141/linked_list_cycle.go), [Py](141/linked_list_cycle.py)), 快慢指针([Go](141/linked_list_cycle2.go),[Py](141/linked_list_cycle2.py)), 翻转链表([Go](141/linked_list_cycle3.go))|
-
+|142|[linked-list-cycle-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii) | 快慢指针([Go](142/linked_list_cycle_ii.go), [Py](142/linked_list_cycle_ii.py))|
 
 
 
@@ -61,3 +61,10 @@
 1. 哈希表法: 用哈希表记录是否访问过
 2. 双指针法: 慢指针一次走一步，快指针一次走两步，如果没环，快指针会先指向nil
 3. 翻转链表法: 每走一步，将Next之前前置节点，如果有环，会重新回到head节点
+
+### 142. linked-list-cycle-ii 
+
+快慢指针法： 
+  - 假设环入口长度为a,环长度为b;则走a+ n * b步时在环入口处
+  - 第一次相遇时慢指针走的不步数s=nb(f == 2 * s == s + nb);
+  - 慢指指针再走a步即可到达环入口，让快指针按步长为1从head和slow同步移动，则再次相遇时即走了a步
