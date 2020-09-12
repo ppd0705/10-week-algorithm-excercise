@@ -16,6 +16,7 @@
 |25|[reverse-nodes-in-k-group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | 快慢指针([Go](25/reverse_nodes_in_k_group.go), [Py](25/reverse_nodes_in_k_group.py))|
 |20|[valid-parentheses](https://leetcode-cn.com/problems/valid-parentheses) | 栈([Go](20/valid_parentheses.go), [Py](20/valid_parentheses.py))|
 |155|[min-stack](https://leetcode-cn.com/problems/min-stack) | 双栈([Go](155/min_stack.go), [Py](155/min_stack.py))|
+|84|[largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | 暴力法([Go](84/largest_rectangle_in_histogram.go)),暴力法优化([Go](84/largest_rectangle_in_histogram2.go)),单调栈([Go](84/largest_rectangle_in_histogram3.go), [Py](84/largest_rectangle_in_histogram3.py))|
 
 
 
@@ -87,4 +88,10 @@
 
 ### 155. min stack
 
-给最小值也建个栈
+双栈法：给最小值也建个栈
+
+### 84. largest-rectangle-in-histogram
+
+1. 暴力法: 以每个bar为高度基准，找到左右边界
+2. 暴力法优化: 左边界在height[i] <= height[i-1]时 bounder[i] = bounder[i-1],右边界同理
+3. 单调栈: 栈存每个高度的索引，如果新的bar height < heights[stack[-1]]时需要出栈
