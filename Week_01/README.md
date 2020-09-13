@@ -22,6 +22,7 @@
 |42|[trapping-rain-water](https://leetcode-cn.com/problems/trapping-rain-water) | 单调栈([Go](42/trapping_rain_water.go),[Py](42/trapping_rain_water.py))|
 |26|[trapping-rain-water](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | 快慢指针([Go](26/remove_duplicates_from_sorted_array.go),[Py](26/remove_duplicates_from_sorted_array.py))|
 |189|[rotate-array](https://leetcode-cn.com/problems/rotate-array) | 暴力法([Go](189/rotate_array.go)), 三次翻转([Go](189/rotate_array2.go),[Py](189/rotate_array2.py))|
+|88|[merge-sorted-array](https://leetcode-cn.com/problems/merge-sorted-array) | 暴力法([Go](88/merge_sorted_array.go)), 双指针从后向前([Go](88/merge_sorted_array2.go),[Py](88/merge_sorted_array2.py))|
 
 
 
@@ -127,3 +128,8 @@
 
 1. 暴力法: 每次移动最后一个元素到队首，移动k次
 2. 三次翻转法: 先全部翻转，再翻转[0,k-1], [k, len(nums)-1] 
+
+### 88. merge-sorted-array
+
+1. 暴力法: 逐个加入nums2, 插入时整体copy nums1后移
+2. 双指针法:从后向前比较num1和nums2
