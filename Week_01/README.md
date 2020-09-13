@@ -21,6 +21,7 @@
 |641|[design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque) | 双指针([Go](641/design_circular_deque.go)),双指针优化([Go](641/design_circular_deque2.go),[Py](641/design_circular_deque2.py))|
 |42|[trapping-rain-water](https://leetcode-cn.com/problems/trapping-rain-water) | 单调栈([Go](42/trapping_rain_water.go),[Py](42/trapping_rain_water.py))|
 |26|[trapping-rain-water](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | 快慢指针([Go](26/remove_duplicates_from_sorted_array.go),[Py](26/remove_duplicates_from_sorted_array.py))|
+|189|[rotate-array](https://leetcode-cn.com/problems/rotate-array) | 暴力法([Go](189/rotate_array.go)), 三次翻转([Go](189/rotate_array2.go),[Py](189/rotate_array2.py))|
 
 
 
@@ -120,3 +121,9 @@
 ### 26. remove-duplicates-from-sorted-array
 
 快慢指针: 快指针遍历，慢指针记录当前最新不重复的数的位置，关键是如何写的优雅
+
+
+### 189. rotate-array
+
+1. 暴力法: 每次移动最后一个元素到队首，移动k次
+2. 三次翻转法: 先全部翻转，再翻转[0,k-1], [k, len(nums)-1] 
