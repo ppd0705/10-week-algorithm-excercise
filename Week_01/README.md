@@ -18,6 +18,7 @@
 |155|[min-stack](https://leetcode-cn.com/problems/min-stack) | 双栈([Go](155/min_stack.go), [Py](155/min_stack.py))|
 |84|[largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | 暴力法([Go](84/largest_rectangle_in_histogram.go)),暴力法优化([Go](84/largest_rectangle_in_histogram2.go)),单调栈([Go](84/largest_rectangle_in_histogram3.go), [Py](84/largest_rectangle_in_histogram3.py))|
 |239|[sliding-window-maximum](https://leetcode-cn.com/problems/sliding-window-maximum) | 队列([Go](239/sliding_window_maximum.go), [Py](239/sliding_window_maximum.py))|
+|641|[design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque) | 双指针([Go](641/design_circular_deque.go)),双指针优化([Go](641/design_circular_deque2.go),[Py](641/design_circular_deque2.py))|
 
 
 
@@ -104,3 +105,8 @@
   - 移除当前窗口比新元素小的
   - 新元素入队
   - 更新最大窗口集
+  
+### 641. design-circular-dequeue
+
+1. 双指针：建立大小为k的数据，头尾指针都指向当前插入数据的位置，并用len记录当前长度以判断是否空或满
+2. 双指针优化: 为了避免头尾指针在空队列时候的耦合，让头指针指向头元素
