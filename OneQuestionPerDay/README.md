@@ -11,6 +11,8 @@
 |6|299|[bulls-and-cows](https://leetcode-cn.com/problems/bulls-and-cows) | 数组记录可能的cows([Go](299/bulls_and_cows.go), [Py](299/bulls_and_cows.go))|
 |7|641|[design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque) | 双指针([Go](../Week_01/641/design_circular_deque.go)),双指针优化([Go](../Week_01/641/design_circular_deque2.go),[Py](../Week_01/641/design_circular_deque2.py))|
 |8|350|[intersection-of-two-arrays-ii](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii) | 哈希表计数([Go](350/intersection_of_two_arrays_ii.go)，[Py](350/intersection_of_two_arrays_ii.py)))|
+|9|LCOF59|[mac-sliding-window](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | 单调递减队列([Go](LCOF59/max_sliding_window.go)，[Py](LCOF59/max_sliding_window.go)))|
+|10|1021|[remove-outermost-parentheses](https://leetcode-cn.com/problems/remove-outermost-parentheses) | 双指针记录有效括号的起止([Go](1021/remove_outermost_parentheses.go)，[Py](1021/remove_outermost_parentheses.py)))|
 
 
 ## 题解
