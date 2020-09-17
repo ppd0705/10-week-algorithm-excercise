@@ -13,6 +13,7 @@
 |8|350|[intersection-of-two-arrays-ii](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii) | 哈希表计数([Go](350/intersection_of_two_arrays_ii.go)，[Py](350/intersection_of_two_arrays_ii.py)))|
 |9|LCOF59|[mac-sliding-window](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | 单调递减队列([Go](LCOF59/max_sliding_window.go)，[Py](LCOF59/max_sliding_window.go)))|
 |10|1021|[remove-outermost-parentheses](https://leetcode-cn.com/problems/remove-outermost-parentheses) | 双指针记录有效括号的起止([Go](1021/remove_outermost_parentheses.go)，[Py](1021/remove_outermost_parentheses.py)))|
+|11|412|[fizz-buzz](https://leetcode-cn.com/problems/fizz-buzz) | 遍历([Go](412/fizz_buzz.go)，[Py](412/fizz_buzz.py)))|
 
 
 ## 题解
