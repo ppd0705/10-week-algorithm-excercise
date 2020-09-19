@@ -20,7 +20,7 @@
 |239|[sliding-window-maximum](https://leetcode-cn.com/problems/sliding-window-maximum) | 单调递减队列([Go](239/sliding_window_maximum.go), [Py](239/sliding_window_maximum.py))|
 |641|[design-circular-deque](https://leetcode-cn.com/problems/design-circular-deque) | 双指针([Go](641/design_circular_deque.go)),双指针优化([Go](641/design_circular_deque2.go),[Py](641/design_circular_deque2.py))|
 |42|[trapping-rain-water](https://leetcode-cn.com/problems/trapping-rain-water) | 单调栈([Go](42/trapping_rain_water.go),[Py](42/trapping_rain_water.py))|
-|26|[trapping-rain-water](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | 快慢指针([Go](26/remove_duplicates_from_sorted_array.go),[Py](26/remove_duplicates_from_sorted_array.py))|
+|26|[remove-duplicates-from-sorted-array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | 快慢指针([Go](26/remove_duplicates_from_sorted_array.go),[Py](26/remove_duplicates_from_sorted_array.py))|
 |189|[rotate-array](https://leetcode-cn.com/problems/rotate-array) | 暴力法([Go](189/rotate_array.go)), 三次翻转([Go](189/rotate_array2.go),[Py](189/rotate_array2.py))|
 |88|[merge-sorted-array](https://leetcode-cn.com/problems/merge-sorted-array) | 暴力法([Go](88/merge_sorted_array.go)), 双指针从后向前([Go](88/merge_sorted_array2.go),[Py](88/merge_sorted_array2.py))|
 
