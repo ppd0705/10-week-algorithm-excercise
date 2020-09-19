@@ -15,6 +15,7 @@
 |10|1021|[remove-outermost-parentheses](https://leetcode-cn.com/problems/remove-outermost-parentheses) | 双指针记录有效括号的起止([Go](1021/remove_outermost_parentheses.go)，[Py](1021/remove_outermost_parentheses.py)))|
 |11|412|[fizz-buzz](https://leetcode-cn.com/problems/fizz-buzz) | 遍历([Go](412/fizz_buzz.go)，[Py](412/fizz_buzz.py)))|
 |12|258|[add-digits](https://leetcode-cn.com/problems/add-digits) | 迭代([Go](258/add_digits.go)，[Py](258/add_digits.py))), 取余([Go](258/add_digits2.go)，[Py](258/add_digits2.py)))|
+|13|104|[maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | 递归([Go](104/maximum_depth_of_binary_tree2.go)，[Py](104/maximum_depth_of_binary_tree2.py))), 队列([Go](104/maximum_depth_of_binary_tree3.go)，[Py](104/maximum_depth_of_binary_tree3.go)))|
 
 
 ## 题解
