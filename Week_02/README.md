@@ -6,6 +6,10 @@
 |49|[group-anagrams](https://leetcode-cn.com/problems/group-anagrams) | 计数分类([Go](49/group_anagrams.go),[Py](49/group_anagrams.py))|
 |94|[binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | 递归([Go](94/binary_tree_inorder_traversal.go),[Py](94/binary_tree_inorder_traversal.py)),栈([Go](94/binary_tree_inorder_traversal2.go),[Py](94/binary_tree_inorder_traversal2.py)), Morris遍历([Go](94/binary_tree_inorder_traversal3.go),[Py](94/binary_tree_inorder_traversal3.py))|
 |144|[binary-tree-preorder-traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) | 递归([Go](144/binary_tree_preorder_traversal.go),[Py](144/binary_tree_preorder_traversal.py)),栈([Go](144/binary_tree_preorder_traversal2.go),[Py](144/binary_tree_preorder_traversal2.py)), Morris遍历([Go](144/binary_tree_preorder_traversal3.go),[Py](144/binary_tree_preorder_traversal3.py))|
+|590|[n-ary-tree-postorder-traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal) | 递归([Go](590/n_ary_tree_postorder_traversal.go),[Py](590/n_ary_tree_postorder_traversal.go)),栈([Go](590/n_ary_tree_postorder_traversal2.go),[Py](590/n_ary_tree_postorder_traversal2.go))|
+|589|[n-ary-tree-preorder-traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | 递归([Go](589/n_ary_tree_preorder_traversal.go),[Py](589/n_ary_tree_preorder_traversal.go)),栈([Go](589/n_ary_tree_preorder_traversal2.go),[Py](589/n_ary_tree_preorder_traversal2.go))|
+|429|[n-ary-tree-level-order-traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal) | 递归([Go](429/n_ary_tree_level_order_traversal.go),[Py](429/n_ary_tree_level_order_traversal.py)),栈([Go](429/n_ary_tree_level_order_traversal2.go),[Py](429/n_ary_tree_level_order_traversal2.py))|
+
 
 
 ## 题解
@@ -31,3 +35,18 @@
 1. 递归
 2. 栈：right进栈
 3. 如果无left,只直接切换到right,否则让right当left的最右子节点的右节点
+
+### 590. n-ary-tree-postorder-traversal
+
+1. 递归
+2. 栈：先前序后翻转
+
+### 589. n-ary-tree-preorder-traversal
+
+1. 递归
+2. 栈
+
+### 429. n-ary-tree-level-order-traversal
+
+1. 递归
+2. 栈
