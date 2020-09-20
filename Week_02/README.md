@@ -10,6 +10,7 @@
 |589|[n-ary-tree-preorder-traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | 递归([Go](589/n_ary_tree_preorder_traversal.go),[Py](589/n_ary_tree_preorder_traversal.go)),栈([Go](589/n_ary_tree_preorder_traversal2.go),[Py](589/n_ary_tree_preorder_traversal2.go))|
 |429|[n-ary-tree-level-order-traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal) | 递归([Go](429/n_ary_tree_level_order_traversal.go),[Py](429/n_ary_tree_level_order_traversal.py)),栈([Go](429/n_ary_tree_level_order_traversal2.go),[Py](429/n_ary_tree_level_order_traversal2.py))|
 |LCOF40|[top-k](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) | 大顶堆([Go](LCOF40/least_numbers.go),[Py](LCOF40/least_numbers.py)),快速搜索([Go](LCOF40/least_numbers2.go),[Py](LCOF40/least_numbers2.py))|
+|264|[ugly-number-ii/](https://leetcode-cn.com/problems/ugly-number-ii) | 小顶堆([Go](264/ugly_number_ii.go),[Py](264/ugly_number_ii.py)), 三指针([Go](264/ugly_number_ii2.go),[Py](264/ugly_number_ii2.py))|
 
 
 
@@ -57,3 +58,8 @@
 
 1. 大顶堆：取前k个数构建大顶堆，后续元素若小于heap[0],则替换之并shift down
 2. 快速搜索：利用快排思想，当partition==k时即满足条件
+
+### 264. ugly-number-ii
+
+1. 小顶堆：依次弹出堆顶元素，如果之前没有入堆，则加入堆，第n次弹出的元素即为结果
+2. 三指针：用三个指针依次记录2，3，5因子当前指向的丑数，
