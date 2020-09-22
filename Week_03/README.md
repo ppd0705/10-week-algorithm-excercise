@@ -4,6 +4,7 @@
 |---|---|------|
 |70|[climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs) | 递归([Go](70/climbing_stairs.go),[Py](70/climbing_stairs.py))|
 |22|[generate-parentheses](https://leetcode-cn.com/problems/generate-parentheses) | 递归([Go](22/generate_parentheses.go),[Py](22/generate_parentheses.py))|
+|226|[invert-binary-tree](https://leetcode-cn.com/problems/invert-binary-tree) | 递归([Go](226/invert_binary_tree.go),[Py](226/invert_binary_tree.go)),队列([Go](226/invert_binary_tree2.go))|
 
 
 ## 题解
@@ -15,3 +16,8 @@
 ### 22. generate-parentheses
 
 递归
+
+### 226. invert-binary-tree
+
+1. 递归
+2. 队列
