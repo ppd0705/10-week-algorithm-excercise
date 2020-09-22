@@ -18,6 +18,7 @@
 |13|104|[maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | 递归([Go](104/maximum_depth_of_binary_tree2.go)，[Py](104/maximum_depth_of_binary_tree2.py))), 队列([Go](104/maximum_depth_of_binary_tree3.go)，[Py](104/maximum_depth_of_binary_tree3.go)))|
 |14|283|[move-zeroes](https://leetcode-cn.com/problems/move-zeroes) |  统计0的个数([Go](../Week_01/283/move_zeros.go),[Py](../Week_01/283/move_zeros.py)), 快慢指针([Go](../Week_01/283/move_zeros.go))|
 |15|94|[binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | 递归([Go](../Week_02/94/binary_tree_inorder_traversal.go),[Py](../Week_02/94/binary_tree_inorder_traversal.py)),栈([Go](../Week_02/94/binary_tree_inorder_traversal2.go),[Py](../Week_02/94/binary_tree_inorder_traversal2.py)), Morris遍历([Go](../Week_02/94/binary_tree_inorder_traversal3.go),[Py](../Week_02/94/binary_tree_inorder_traversal3.py))|
+|16|LCOF5|[replace-space](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof) | 新建一个buff([Go](LCOF5/replace_space.go),[Py](LCOF5/replace_space.go))|
 
 
 ## 题解
