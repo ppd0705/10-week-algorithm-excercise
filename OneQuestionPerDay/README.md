@@ -19,6 +19,7 @@
 |14|283|[move-zeroes](https://leetcode-cn.com/problems/move-zeroes) |  统计0的个数([Go](../Week_01/283/move_zeros.go),[Py](../Week_01/283/move_zeros.py)), 快慢指针([Go](../Week_01/283/move_zeros.go))|
 |15|94|[binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | 递归([Go](../Week_02/94/binary_tree_inorder_traversal.go),[Py](../Week_02/94/binary_tree_inorder_traversal.py)),栈([Go](../Week_02/94/binary_tree_inorder_traversal2.go),[Py](../Week_02/94/binary_tree_inorder_traversal2.py)), Morris遍历([Go](../Week_02/94/binary_tree_inorder_traversal3.go),[Py](../Week_02/94/binary_tree_inorder_traversal3.py))|
 |16|LCOF5|[replace-space](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof) | 新建一个buff([Go](LCOF5/replace_space.go),[Py](LCOF5/replace_space.go))|
+|17|LCOF6|[reverse-print](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | 遍历([Go](LCOF6/reverse_link_node.go),[Py](LCOF6/reverse_link_node.py))|
 
 
 ## 题解
