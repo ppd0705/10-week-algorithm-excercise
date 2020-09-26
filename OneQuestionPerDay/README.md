@@ -22,6 +22,7 @@
 |17|LCOF6|[reverse-print](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | 遍历([Go](LCOF6/reverse_link_node.go),[Py](LCOF6/reverse_link_node.py))|
 |18|236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) | 递归([Go](../Week_03/236/lowest_common_ancestor_of_a-binary_tree.go),[Py](LCOF6/reverse_link_node.py))|
 |19|1|[two-sum](https://leetcode-cn.com/problems/two-sum) | 字典存num-index键值对([Go](1/two_sum.go),[Py](1/two_sum.py))|
+|20|15|[3sum](https://leetcode-cn.com/problems/3sum) | 双指针夹逼([Go](15/3sum.go),[Py](15/3sum.py))|
 
 
 ## 题解
