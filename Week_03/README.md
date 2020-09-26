@@ -9,6 +9,7 @@
 |104|[maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | 递归([Go](104/maximum_depth_of_binary_tree.go)))|
 |111|[minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) | 递归([Go](111/minimum_depth_of_binary_tree.go),[Py](111/minimum_depth_of_binary_tree.py)),层序遍历([Go](111/minimum_depth_of_binary_tree2.go),[Py](111/minimum_depth_of_binary_tree2.py))|
 |236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) | 递归([Go](236/lowest_common_ancestor_of_a-binary_tree.go),[Py](236/lowest_common_ancestor_of_a-binary_tree.py)),遍历记录父节点([Go](236/lowest_common_ancestor_of_a-binary_tree2.go),[Py](236/lowest_common_ancestor_of_a-binary_tree2.py))|
+|297|[serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 层序遍历([Go](297/serialize_and_deserialize_binary_tree.go),[Py](297/serialize_and_deserialize_binary_tree.py)),递归前序遍历([Go](297/serialize_and_deserialize_binary_tree2.go),[Py](297/serialize_and_deserialize_binary_tree2.py))|
 
 
 ## 题解
@@ -44,3 +45,9 @@
       - 如果left和right都有找到，那就是root
       - 如果left没找到，那返回right(right可能时nil)；right没找到亦然
 2. 建2个哈希表，一个记录父节点，另一个记录是否访问过
+
+
+### 297. serialize-and-deserialize-binary-tree/
+
+1. 使用队列层序遍历
+2. 递归前序遍历
