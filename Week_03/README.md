@@ -10,6 +10,7 @@
 |111|[minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) | 递归([Go](111/minimum_depth_of_binary_tree.go),[Py](111/minimum_depth_of_binary_tree.py)),层序遍历([Go](111/minimum_depth_of_binary_tree2.go),[Py](111/minimum_depth_of_binary_tree2.py))|
 |236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) | 递归([Go](236/lowest_common_ancestor_of_a-binary_tree.go),[Py](236/lowest_common_ancestor_of_a-binary_tree.py)),遍历记录父节点([Go](236/lowest_common_ancestor_of_a-binary_tree2.go),[Py](236/lowest_common_ancestor_of_a-binary_tree2.py))|
 |297|[serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 层序遍历([Go](297/serialize_and_deserialize_binary_tree.go),[Py](297/serialize_and_deserialize_binary_tree.py)),递归前序遍历([Go](297/serialize_and_deserialize_binary_tree2.go),[Py](297/serialize_and_deserialize_binary_tree2.py))|
+|105|[construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 递归([Go](105/construct_binary_tree_from_preorder_and_inorder_traversal.go),[Py](105/construct_binary_tree_from_preorder_and_inorder_traversal.py))|
 
 
 ## 题解
@@ -51,3 +52,11 @@
 
 1. 使用队列层序遍历
 2. 递归前序遍历
+
+### 297. construct-binary-tree-from-preorder-and-inorder-traversal
+
+1. 递归
+  - 前序遍历的第一个元素为root
+  - 在中序遍历中找到root的index，从而得出左右子树的长度
+  - 递归左右子树
+  
