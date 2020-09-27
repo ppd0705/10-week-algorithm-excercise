@@ -23,6 +23,7 @@
 |18|236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) | 递归([Go](../Week_03/236/lowest_common_ancestor_of_a-binary_tree.go),[Py](LCOF6/reverse_link_node.py))|
 |19|1|[two-sum](https://leetcode-cn.com/problems/two-sum) | 字典存num-index键值对([Go](1/two_sum.go),[Py](1/two_sum.py))|
 |20|15|[3sum](https://leetcode-cn.com/problems/3sum) | 双指针夹逼([Go](15/3sum.go),[Py](15/3sum.py))|
+|21|LCCI17|[get-kth-magic-number-lcci](https://leetcode-cn.com/problems/get-kth-magic-number-lcci) | 三指针([Go](LCCI17/get_kth_magic_number.go),[Py](LCCI17/get_kth_magic_number.py)), 小顶堆([Go](LCCI17/get_kth_magic_number2.go),[Py](LCCI17/get_kth_magic_number2.py))|
 
 
 ## 题解
