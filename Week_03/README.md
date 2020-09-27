@@ -6,7 +6,7 @@
 |22|[generate-parentheses](https://leetcode-cn.com/problems/generate-parentheses) | 递归([Go](22/generate_parentheses.go),[Py](22/generate_parentheses.py))|
 |226|[invert-binary-tree](https://leetcode-cn.com/problems/invert-binary-tree) | 递归([Go](226/invert_binary_tree.go),[Py](226/invert_binary_tree.go)),队列([Go](226/invert_binary_tree2.go))|
 |98|[validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree) | 递归([Go](98/validate_binary_search_tree.go),[Py](98/validate_binary_search_tree.py)),中序遍历([Go](98/validate_binary_search_tree2.go),[Py](98/validate_binary_search_tree2.py))|
-|104|[maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | 递归([Go](104/maximum_depth_of_binary_tree.go)))|
+|104|[maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | 递归([Go](104/maximum_depth_of_binary_tree.go))|
 |111|[minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) | 递归([Go](111/minimum_depth_of_binary_tree.go),[Py](111/minimum_depth_of_binary_tree.py)),层序遍历([Go](111/minimum_depth_of_binary_tree2.go),[Py](111/minimum_depth_of_binary_tree2.py))|
 |236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) | 递归([Go](236/lowest_common_ancestor_of_a-binary_tree.go),[Py](236/lowest_common_ancestor_of_a-binary_tree.py)),遍历记录父节点([Go](236/lowest_common_ancestor_of_a-binary_tree2.go),[Py](236/lowest_common_ancestor_of_a-binary_tree2.py))|
 |297|[serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 层序遍历([Go](297/serialize_and_deserialize_binary_tree.go),[Py](297/serialize_and_deserialize_binary_tree.py)),递归前序遍历([Go](297/serialize_and_deserialize_binary_tree2.go),[Py](297/serialize_and_deserialize_binary_tree2.py))|
@@ -14,6 +14,7 @@
 |77|[combinations](https://leetcode-cn.com/problems/combinations) | 递归([Go](77/combinations.go),[Py](77/combinations.go))|
 |46|[permutations](https://leetcode-cn.com/problems/permutations) | 递归([Go](46/permutations.go),[Py](46/permutations.py))|
 |47|[permutations-ii](https://leetcode-cn.com/problems/permutations-ii) | 递归([Go](47/permutations.go),[Py](47/permutations.py))|
+|50|[powx_n](https://leetcode-cn.com/problems/powx-n) | 递归([Go](50/powx_n.go),[Py](50/powx_n.py))|
 
 
 ## 题解
@@ -77,9 +78,16 @@
   - 递归每次填一个数
   - 第k个即为结果
   
-### 77. permutations-ii
+### 47. permutations-ii
 
 1. 递归+回溯
   - 提前建立一个长度为k的空数组,并建立一个字典记录当前每个元素剩余的个数
   - 递归每次填一个数
   - 第k个即为结果
+  
+  
+### 50. powx-n
+
+1. 递归
+ - n为0时返回1
+ - n<0时：n=-n,x = 1/x
