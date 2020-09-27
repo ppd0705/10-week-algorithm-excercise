@@ -12,6 +12,8 @@
 |297|[serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 层序遍历([Go](297/serialize_and_deserialize_binary_tree.go),[Py](297/serialize_and_deserialize_binary_tree.py)),递归前序遍历([Go](297/serialize_and_deserialize_binary_tree2.go),[Py](297/serialize_and_deserialize_binary_tree2.py))|
 |105|[construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 递归([Go](105/construct_binary_tree_from_preorder_and_inorder_traversal.go),[Py](105/construct_binary_tree_from_preorder_and_inorder_traversal.py))|
 |77|[combinations](https://leetcode-cn.com/problems/combinations) | 递归([Go](77/combinations.go),[Py](77/combinations.go))|
+|46|[permutations](https://leetcode-cn.com/problems/permutations) | 递归([Go](46/permutations.go),[Py](46/permutations.py))|
+|47|[permutations-ii](https://leetcode-cn.com/problems/permutations-ii) | 递归([Go](47/permutations.go),[Py](47/permutations.py))|
 
 
 ## 题解
@@ -65,5 +67,19 @@
 
 1. 递归
   - 提前建立一个长度为k的空数组
+  - 递归每次填一个数
+  - 第k个即为结果
+  
+### 46. permutations
+
+1. 递归+回溯
+  - 提前建立一个长度为k的空数组,并建立一个同样长度为k的空数组用于标识是否已被使用
+  - 递归每次填一个数
+  - 第k个即为结果
+  
+### 77. permutations-ii
+
+1. 递归+回溯
+  - 提前建立一个长度为k的空数组,并建立一个字典记录当前每个元素剩余的个数
   - 递归每次填一个数
   - 第k个即为结果
