@@ -17,6 +17,7 @@
 |50|[powx_n](https://leetcode-cn.com/problems/powx-n) | 递归([Go](50/powx_n.go),[Py](50/powx_n.py))|
 |78|[subsets](https://leetcode-cn.com/problems/subsets) | 递归([Go](78/subsets.go),[Py](78/subsets.py))|
 |169|[majority-element](https://leetcode-cn.com/problems/majority-element) | 哈希表([Go](169/majority_element.go),[Py](169/majority_element.py)),计数投票([Go](169/majority_element2.go),[Py](169/majority_element2.py))|
+|17|[letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number) | 递归([Go](17/letter_combinations_of_a_phone_number.go),[Py](17/letter_combinations_of_a_phone_number.go))|
 
 
 ## 题解
@@ -98,7 +99,12 @@
 
 1. 递归
 
-### 78. majority-element
+### 169. majority-element
 
 1. 哈希表：遍历记录每个元素出现的次数，大于len(nums)/2即为众数
 2. 计数投票：用一个整数变量count做计数，遇到众数+1，非众数-1，最后count必定大于0，对应的candidate即为众数
+
+
+### 17. letter-combinations-of-a-phone-number
+
+1. 递归
