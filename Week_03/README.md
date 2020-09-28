@@ -18,6 +18,7 @@
 |78|[subsets](https://leetcode-cn.com/problems/subsets) | 递归([Go](78/subsets.go),[Py](78/subsets.py))|
 |169|[majority-element](https://leetcode-cn.com/problems/majority-element) | 哈希表([Go](169/majority_element.go),[Py](169/majority_element.py)),计数投票([Go](169/majority_element2.go),[Py](169/majority_element2.py))|
 |17|[letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number) | 递归([Go](17/letter_combinations_of_a_phone_number.go),[Py](17/letter_combinations_of_a_phone_number.go))|
+|51|[n-queens](https://leetcode-cn.com/problems/n-queens) | 回溯([Go](51/n_queens.go),[Py](51/n_queens.py))|
 
 
 ## 题解
@@ -108,3 +109,8 @@
 ### 17. letter-combinations-of-a-phone-number
 
 1. 递归
+
+
+### 51. n-queens
+
+1. 回溯
