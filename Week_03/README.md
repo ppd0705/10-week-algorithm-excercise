@@ -15,6 +15,8 @@
 |46|[permutations](https://leetcode-cn.com/problems/permutations) | 递归([Go](46/permutations.go),[Py](46/permutations.py))|
 |47|[permutations-ii](https://leetcode-cn.com/problems/permutations-ii) | 递归([Go](47/permutations.go),[Py](47/permutations.py))|
 |50|[powx_n](https://leetcode-cn.com/problems/powx-n) | 递归([Go](50/powx_n.go),[Py](50/powx_n.py))|
+|78|[subsets](https://leetcode-cn.com/problems/subsets) | 递归([Go](78/subsets.go),[Py](78/subsets.py))|
+|169|[majority-element](https://leetcode-cn.com/problems/majority-element) | 哈希表([Go](169/majority_element.go),[Py](169/majority_element.py)),计数投票([Go](169/majority_element2.go),[Py](169/majority_element2.py))|
 
 
 ## 题解
@@ -91,3 +93,12 @@
 1. 递归
  - n为0时返回1
  - n<0时：n=-n,x = 1/x
+ 
+### 78. subsets
+
+1. 递归
+
+### 78. majority-element
+
+1. 哈希表：遍历记录每个元素出现的次数，大于len(nums)/2即为众数
+2. 计数投票：用一个整数变量count做计数，遇到众数+1，非众数-1，最后count必定大于0，对应的candidate即为众数
