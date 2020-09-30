@@ -26,6 +26,8 @@
 |21|LCCI17|[get-kth-magic-number-lcci](https://leetcode-cn.com/problems/get-kth-magic-number-lcci) | 三指针([Go](LCCI17/get_kth_magic_number.go),[Py](LCCI17/get_kth_magic_number.py)), 小顶堆([Go](LCCI17/get_kth_magic_number2.go),[Py](LCCI17/get_kth_magic_number2.py))|
 |22|46|[permutations](https://leetcode-cn.com/problems/permutations) | 递归+回溯([Go](../Week_03/46/permutations.go),[Py](../Week_03/46/permutations.py))|
 |23|70|[climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs) | 递推([Go](../Week_01/70/climbing_stairs.go),[Py](../Week_01/70/climbing_stairs.py))|
+|24|122|[best-time-to-buy-and-sell-stock-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) | 贪心([Go](../Week_04/122/best_time_to_buy_and_sell_stock_ii.go),[Py](../Week_04/122/best_time_to_buy_and_sell_stock_ii.py))|
+
 
 
 ## 题解
