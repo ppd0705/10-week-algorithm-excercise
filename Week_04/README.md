@@ -10,6 +10,7 @@
 |515|[find-largest-value-in-each-tree-row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row) | 广度优先([Go](515/find_largest_value_in_each_tree_row.go),[Py](515/find_largest_value_in_each_tree_row.py)),深度优先([Go](515/find_largest_value_in_each_tree_row2.go),[Py](515/find_largest_value_in_each_tree_row2.py))|
 |127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](127/word_ladder.go)),双向广度优先([Go](127/word_ladder2.go),[Py](127/word_ladder2.py))|
 |200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](200/number_of_islands.go),[Py](200/number_of_islands.py))|
+|367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](367/valid_perfect_square.go),[Py](367/valid_perfect_square.go))|
 
 
 ## 题解
@@ -47,3 +48,7 @@
 ### 200. numbers-of-islands
 
 1. 深度优先
+
+### 367. valid-perfect-square
+
+1. 二分查找: for left <= right

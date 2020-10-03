@@ -29,6 +29,7 @@
 |24|122|[best-time-to-buy-and-sell-stock-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) | 贪心([Go](../Week_04/122/best_time_to_buy_and_sell_stock_ii.go),[Py](../Week_04/122/best_time_to_buy_and_sell_stock_ii.py))|
 |25|860|[lemonade-change](https://leetcode-cn.com/problems/lemonade-change) | 贪心([Go](../Week_04/860/lemonade_change.go),[Py](../Week_04/860/lemonade_change.py))|
 |26|200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](../Week_04/200/number_of_islands.go),[Py](../Week_04/200/number_of_islands.py))|
+|27|367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](../Week_04/367/valid_perfect_square.go),[Py](../Week_04/367/valid_perfect_square.go))|
 
 
 ## 题解
