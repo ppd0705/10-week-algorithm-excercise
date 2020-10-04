@@ -9,7 +9,9 @@
 |860|[lemonade-change](https://leetcode-cn.com/problems/lemonade-change) | 贪心([Go](860/lemonade_change.go),[Py](860/lemonade_change.py))|
 |515|[find-largest-value-in-each-tree-row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row) | 广度优先([Go](515/find_largest_value_in_each_tree_row.go),[Py](515/find_largest_value_in_each_tree_row.py)),深度优先([Go](515/find_largest_value_in_each_tree_row2.go),[Py](515/find_largest_value_in_each_tree_row2.py))|
 |127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](127/word_ladder.go)),双向广度优先([Go](127/word_ladder2.go),[Py](127/word_ladder2.py))|
+|126|[word-ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii) | 广度优先+深度优先([Go](126/word_ladder_ii.go),[Py](126/word_ladder_ii.py))|
 |200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](200/number_of_islands.go),[Py](200/number_of_islands.py))|
+|529|[minesweeper](https://leetcode-cn.com/problems/minesweeper) | 广度优先([Go](529/minesweeper.go),[Py](529/minesweeper.py)),深度优先([Go](529/minesweeper2.go),[Py](529/minesweeper2.py))|
 |367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](367/valid_perfect_square.go),[Py](367/valid_perfect_square.go))|
 
 
@@ -45,9 +47,24 @@
 1. 广度优先
 2. 双向广度优先
 
+### 126. word-ladder-ii
+
+1. 广度优先+深度优先
+    - 先将所有word按regex分组
+    - 广度优先遍历，一次记录每个node最短路径的上一步nodes, queue空或者当前level+1> level_map[end_word]为终止条件
+    - 深度优先反向遍历pre_nodes拼出完整的路径
+    
 ### 200. numbers-of-islands
 
 1. 深度优先
+
+### 529. minesweeper
+
+1. 广度优先: 
+  - 层序遍历，依次遍历八个方向是否有'M'
+  - 需要使用set去重
+2. 深度优先
+
 
 ### 367. valid-perfect-square
 
