@@ -13,6 +13,7 @@
 |200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](200/number_of_islands.go),[Py](200/number_of_islands.py))|
 |529|[minesweeper](https://leetcode-cn.com/problems/minesweeper) | 广度优先([Go](529/minesweeper.go),[Py](529/minesweeper.py)),深度优先([Go](529/minesweeper2.go),[Py](529/minesweeper2.py))|
 |367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](367/valid_perfect_square.go),[Py](367/valid_perfect_square.go))|
+|322|[coin-change](https://leetcode-cn.com/problems/coin-change) | 递推([Go](322/coin_change.go),[Py](322/coin_change.py)),递归([Go](322/coin_change2.go),[Py](322/coin_change2.py))|
 
 
 ## 题解
@@ -69,3 +70,8 @@
 ### 367. valid-perfect-square
 
 1. 二分查找: for left <= right
+
+### 322. coin-change
+
+1. 递推: dp[i] = min(dp[i-c] for c in coins) + 1;return dp[amount]
+2. 递归: 使用字典缓存子问题的结果
