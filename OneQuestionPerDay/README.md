@@ -30,6 +30,7 @@
 |25|860|[lemonade-change](https://leetcode-cn.com/problems/lemonade-change) | 贪心([Go](../Week_04/860/lemonade_change.go),[Py](../Week_04/860/lemonade_change.py))|
 |26|200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](../Week_04/200/number_of_islands.go),[Py](../Week_04/200/number_of_islands.py))|
 |27|367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](../Week_04/367/valid_perfect_square.go),[Py](../Week_04/367/valid_perfect_square.go))|
+|28|169|[majority-element](https://leetcode-cn.com/problems/majority-element) | 哈希表([Go](../Week_03/169/majority_element.go),[Py](../Week_03/169/majority_element.py)),计数投票([Go](../Week_03/169/majority_element2.go),[Py](../Week_03/169/majority_element2.py))|
 
 
 ## 题解
