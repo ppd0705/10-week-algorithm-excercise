@@ -18,6 +18,9 @@
 |874|[walking-robot-simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | 迭代([Go](874/walking_robot_simulation.go),[Py](874/walking_robot_simulation.py))|
 |55|[jump-game](https://leetcode-cn.com/problems/jump-game) | 贪心([Go](55/jump_game.go),[Py](55/jump_game.py))|
 |45|[jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii) | 贪心([Go](45/jump_game_ii.go),[Py](45/jump_game_ii.py))|
+|69|[sqrtx](https://leetcode-cn.com/problems/sqrtx) | 二分查找([Go](69/sqrtx.go),[Py](69/sqrtx.py))|
+|33|[search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | 二分查找([Go](33/search_in_rotated_sorted_array.go),[Py](33/search_in_rotated_sorted_array.py))|
+|74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix) | 二分查找([Go](74/search_a_2d_matrix.go),[Py](74/search_a_2d_matrix.py))|
 
 
 ## 题解
@@ -101,3 +104,30 @@
   - 设置边界值end初始值为0
   - 设置right_most，初值值为0
   - 当i==end时即到达边界，step++, end = right_most
+  
+### 69. sqrtx
+
+1. 二分查找
+
+### 33. search-in-rotated-sorted-array
+
+1. 二分查找: 
+  - 当mid < left是右半部分有序反之左半部分有序
+  
+### 74. search-a-2d-matrix
+
+1. 二分查找: 
+  - 先二分找到行
+  - 再二分找列 
+ 
+### 153. find-minimum-in-rotated-sorted-array
+
+1. 二分查找1: 
+    - nums[mid] > nums[right]则左半区递减，left=mid+1反之right=mid
+2. 二分查找2:   
+    - 先判断是否全局有序，如果是则返回nums[0]
+    - 再判断
+       - 当nums[mid] > nums[mid+1]返回mid+1
+       - 当nums[mid] < nums[mid-1]返回mid
+       - 都不满足时如果nums[mid] > nums[0]时最小值一点在右半区，否则在左半区
+    

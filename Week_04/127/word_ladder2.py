@@ -8,7 +8,7 @@ class Solution:
         word_index_map = {w: i for i, w in enumerate(wordList)}
         if endWord not in word_index_map:
             return 0
-        step = 1
+        step = 0
         start_queue = [beginWord]
         end_queue = [endWord]
         end_used[word_index_map[endWord]] = True
