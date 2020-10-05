@@ -14,6 +14,10 @@
 |529|[minesweeper](https://leetcode-cn.com/problems/minesweeper) | 广度优先([Go](529/minesweeper.go),[Py](529/minesweeper.py)),深度优先([Go](529/minesweeper2.go),[Py](529/minesweeper2.py))|
 |367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](367/valid_perfect_square.go),[Py](367/valid_perfect_square.go))|
 |322|[coin-change](https://leetcode-cn.com/problems/coin-change) | 递推([Go](322/coin_change.go),[Py](322/coin_change.py)),递归([Go](322/coin_change2.go),[Py](322/coin_change2.py))|
+|455|[assign-cookies](https://leetcode-cn.com/problems/assign-cookies) | 贪心([Go](455/assign_cookies.go),[Py](455/assign_cookies.py))|
+|874|[walking-robot-simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | 迭代([Go](874/walking_robot_simulation.go),[Py](874/walking_robot_simulation.py))|
+|55|[jump-game](https://leetcode-cn.com/problems/jump-game) | 贪心([Go](55/jump_game.go),[Py](55/jump_game.py))|
+|45|[jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii) | 贪心([Go](45/jump_game_ii.go),[Py](45/jump_game_ii.py))|
 
 
 ## 题解
@@ -75,3 +79,25 @@
 
 1. 递推: dp[i] = min(dp[i-c] for c in coins) + 1;return dp[amount]
 2. 递归: 使用字典缓存子问题的结果
+
+### 455. assign-cookies
+
+1. 贪心: 先排序后双指针迭代
+
+### 874. walking-robot-simulation
+
+1. 迭代
+ - 找到转向时dx/dy的变换规律
+ - 一步一步往前走，遇到障碍回退一步即可 
+ - 需要找出所有经过的点的距离最大值
+ 
+### 55. jump-game
+
+1. 贪心: 设置一个right_most的变量，初始值为0，小于right_most的点都能访问到，不断扩张right_most
+
+### 45. jump-game-ii
+
+1. 贪心: 
+  - 设置边界值end初始值为0
+  - 设置right_most，初值值为0
+  - 当i==end时即到达边界，step++, end = right_most
