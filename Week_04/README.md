@@ -21,6 +21,7 @@
 |69|[sqrtx](https://leetcode-cn.com/problems/sqrtx) | 二分查找([Go](69/sqrtx.go),[Py](69/sqrtx.py))|
 |33|[search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | 二分查找([Go](33/search_in_rotated_sorted_array.go),[Py](33/search_in_rotated_sorted_array.py))|
 |74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix) | 二分查找([Go](74/search_a_2d_matrix.go),[Py](74/search_a_2d_matrix.py))|
+|153|[find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array) | 二分查找([Go](153/find_minimum_in_rotated_sorted_array.go),[Py](153/find_minimum_in_rotated_sorted_array.py)),二分查找2([Go](153/find_minimum_in_rotated_sorted_array2.go),[Py](153/find_minimum_in_rotated_sorted_array2.py))|
 
 
 ## 题解
