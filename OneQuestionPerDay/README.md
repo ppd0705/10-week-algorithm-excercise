@@ -31,7 +31,9 @@
 |26|200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](../Week_04/200/number_of_islands.go),[Py](../Week_04/200/number_of_islands.py))|
 |27|367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](../Week_04/367/valid_perfect_square.go),[Py](../Week_04/367/valid_perfect_square.go))|
 |28|169|[majority-element](https://leetcode-cn.com/problems/majority-element) | 哈希表([Go](../Week_03/169/majority_element.go),[Py](../Week_03/169/majority_element.py)),计数投票([Go](../Week_03/169/majority_element2.go),[Py](../Week_03/169/majority_element2.py))|
-
+|29|127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](../Week_04/127/word_ladder.go)),双向广度优先([Go](../Week_04/127/word_ladder2.go),[Py](../Week_04/127/word_ladder2.py))|
+|30|1|[two-sum](https://leetcode-cn.com/problems/two-sum) | 先排序后双指针夹逼([Go](../Week_01/1/two_sum.go)), 字典缓存差值的索引([Go](../Week_01/1/two_sum_2.go),[Py](../Week_01/1/two_sum.py))|
+|31|874|[walking-robot-simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | 迭代([Go](../Week_04/874/walking_robot_simulation.go),[Py](../Week_04/874/walking_robot_simulation.py))|
 
 ## 题解
 
