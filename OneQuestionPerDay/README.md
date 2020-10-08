@@ -34,6 +34,7 @@
 |29|127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](../Week_04/127/word_ladder.go)),双向广度优先([Go](../Week_04/127/word_ladder2.go),[Py](../Week_04/127/word_ladder2.py))|
 |30|1|[two-sum](https://leetcode-cn.com/problems/two-sum) | 先排序后双指针夹逼([Go](../Week_01/1/two_sum.go)), 字典缓存差值的索引([Go](../Week_01/1/two_sum_2.go),[Py](../Week_01/1/two_sum.py))|
 |31|874|[walking-robot-simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | 迭代([Go](../Week_04/874/walking_robot_simulation.go),[Py](../Week_04/874/walking_robot_simulation.py))|
+|32|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray) | 迭代([Go](53/maximum_subarray.go),[Py](53/maximum_subarray.py)),分治([Go](53/maximum_subarray2.go),[Py](53/maximum_subarray2.py))|
 
 ## 题解
 
