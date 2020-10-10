@@ -36,6 +36,7 @@
 |31|874|[walking-robot-simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | 迭代([Go](../Week_04/874/walking_robot_simulation.go),[Py](../Week_04/874/walking_robot_simulation.py))|
 |32|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray) | 迭代([Go](53/maximum_subarray.go),[Py](53/maximum_subarray.py)),分治([Go](53/maximum_subarray2.go),[Py](53/maximum_subarray2.py))|
 |33|1143|[longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence) | 递归([Go](../Week_06/1143/longest_common_subsequence.go),[Py](../Week_06/1143/longest_common_subsequence.py)),动态规划([Go](../Week_06/1143/longest_common_subsequence2.go),[Py](../Week_06/1143/longest_common_subsequence2.py)),动态规划2([Go](../Week_06/1143/longest_common_subsequence3.go),[Py](../Week_06/1143/longest_common_subsequence3.py))|
+|34|74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix) | 二分查找([Go](../Week_04/74/search_a_2d_matrix.go),[Py](../Week_04/74/search_a_2d_matrix.py))|
 
 ## 题解
 
