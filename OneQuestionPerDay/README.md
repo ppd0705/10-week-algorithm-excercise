@@ -35,6 +35,7 @@
 |30|1|[two-sum](https://leetcode-cn.com/problems/two-sum) | 先排序后双指针夹逼([Go](../Week_01/1/two_sum.go)), 字典缓存差值的索引([Go](../Week_01/1/two_sum_2.go),[Py](../Week_01/1/two_sum.py))|
 |31|874|[walking-robot-simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | 迭代([Go](../Week_04/874/walking_robot_simulation.go),[Py](../Week_04/874/walking_robot_simulation.py))|
 |32|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray) | 迭代([Go](53/maximum_subarray.go),[Py](53/maximum_subarray.py)),分治([Go](53/maximum_subarray2.go),[Py](53/maximum_subarray2.py))|
+|33|1143|[longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence) | 递归([Go](../Week_06/1143/longest_common_subsequence.go),[Py](../Week_06/1143/longest_common_subsequence.py)),动态规划([Go](../Week_06/1143/longest_common_subsequence2.go),[Py](../Week_06/1143/longest_common_subsequence2.py)),动态规划2([Go](../Week_06/1143/longest_common_subsequence3.go),[Py](../Week_06/1143/longest_common_subsequence3.py))|
 
 ## 题解
 

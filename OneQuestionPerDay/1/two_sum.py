@@ -6,6 +6,6 @@ class Solution:
         for i, n in enumerate(nums):
             m = target - n
             if m in cache:
-                return [cache[m],i]
+                return [cache[m], i]
             cache[n] = i
         return []
