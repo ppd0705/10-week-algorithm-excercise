@@ -40,6 +40,8 @@
 |35|LCOF5|[replace-space](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof) | 新建一个buff([Go](LCOF5/replace_space.go),[Py](LCOF5/replace_space.go))|
 |36|64|[minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum) | 动态规划([Go](64/minimum_path_sum.go),[Py](64/minimum_path_sum.py))|
 |37|322|[coin-change](https://leetcode-cn.com/problems/coin-change) | 递推([Go](../Week_04/322/coin_change.go),[Py](../Week_04/322/coin_change.py)),递归([Go](../Week_04/322/coin_change2.go),[Py](../Week_04/322/coin_change2.py))|
+|38|213|[house-robber-ii](https://leetcode-cn.com/problems/house-robber-ii) | 动态规划([Go](../Week_06/213/house_robber_ii.go),[Py](../Week_06/213/house_robber_ii.go))|
+|39|589|[n-ary-tree-preorder-traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | 递归([Go](../Week_02/589/n_ary_tree_preorder_traversal.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal.go)),栈([Go](../Week_02/589/n_ary_tree_preorder_traversal2.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal2.go))|
 
 ## 题解
 
