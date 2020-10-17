@@ -42,6 +42,8 @@
 |37|322|[coin-change](https://leetcode-cn.com/problems/coin-change) | 递推([Go](../Week_04/322/coin_change.go),[Py](../Week_04/322/coin_change.py)),递归([Go](../Week_04/322/coin_change2.go),[Py](../Week_04/322/coin_change2.py))|
 |38|213|[house-robber-ii](https://leetcode-cn.com/problems/house-robber-ii) | 动态规划([Go](../Week_06/213/house_robber_ii.go),[Py](../Week_06/213/house_robber_ii.go))|
 |39|589|[n-ary-tree-preorder-traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | 递归([Go](../Week_02/589/n_ary_tree_preorder_traversal.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal.go)),栈([Go](../Week_02/589/n_ary_tree_preorder_traversal2.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal2.go))|
+|40|363|[max-sum-of-rectangle-no-larger-than-k](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k) | TODO|
+|41|33|[search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | 二分查找([Go](../Week_04/33/search_in_rotated_sorted_array.go),[Py](../Week_04/33/search_in_rotated_sorted_array.py))|
 
 ## 题解
 
