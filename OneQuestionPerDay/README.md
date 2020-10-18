@@ -44,6 +44,7 @@
 |39|589|[n-ary-tree-preorder-traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | 递归([Go](../Week_02/589/n_ary_tree_preorder_traversal.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal.go)),栈([Go](../Week_02/589/n_ary_tree_preorder_traversal2.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal2.go))|
 |40|363|[max-sum-of-rectangle-no-larger-than-k](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k) | TODO|
 |41|33|[search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | 二分查找([Go](../Week_04/33/search_in_rotated_sorted_array.go),[Py](../Week_04/33/search_in_rotated_sorted_array.py))|
+|42|212|[word-search-ii](https://leetcode-cn.com/problems/word-search-ii) | 前缀树+回溯([Go](212/word_search_ii.go),[Py](212/word_search_ii.py))|
 
 ## 题解
 
