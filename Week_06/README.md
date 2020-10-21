@@ -6,6 +6,7 @@
 |213|[house-robber-ii](https://leetcode-cn.com/problems/house-robber-ii) | 动态规划([Go](213/house_robber_ii.go),[Py](213/house_robber_ii.go))|
 |62|[unique-paths](https://leetcode-cn.com/problems/unique-paths) | 动态规划([Go](62/unique_paths.go),[Py](62/unique_paths.go))|
 |63|[unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii) | 动态规划([Go](63/unique_path_ii.go),[Py](63/unique_path_ii.go))|
+|120|[triangle](https://leetcode-cn.com/problems/triangle) | 动态规划([Go](120/triangle.go),[Py](120/triangle.go))|
 
 
 ## 题解
@@ -31,3 +32,7 @@
 1. 动态规划:
   - dp[i][j] = 1 if (i==0 or j ==0) else dp[i-1][j] + dp[i][j-1]
   
+  
+### 120. triangle
+
+1. 动态规划: 倒序递推:
