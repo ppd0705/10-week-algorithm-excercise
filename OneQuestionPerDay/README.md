@@ -48,6 +48,8 @@
 |43|74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix) | 二分查找([Go](../Week_04/74/search_a_2d_matrix.go),[Py](../Week_04/74/search_a_2d_matrix.py))|
 |44|208|[implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree) | 前缀树([Go](208/implement_trie_prefix_tree.go),[Py](208/implement_trie_prefix_tree.py))|
 |45|200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](../Week_04/200/number_of_islands.go),[Py](../Week_04/200/number_of_islands.py))|
+|46|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray) | 迭代([Go](53/maximum_subarray.go),[Py](53/maximum_subarray.py)),分治([Go](53/maximum_subarray2.go),[Py](53/maximum_subarray2.py))|
+|47|127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](../Week_04/127/word_ladder.go)),双向广度优先([Go](../Week_04/127/word_ladder2.go),[Py](../Week_04/127/word_ladder2.py))|
 
 ## 题解
 
