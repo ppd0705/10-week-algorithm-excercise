@@ -7,7 +7,11 @@
 |62|[unique-paths](https://leetcode-cn.com/problems/unique-paths) | 动态规划([Go](62/unique_paths.go),[Py](62/unique_paths.go))|
 |63|[unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii) | 动态规划([Go](63/unique_path_ii.go),[Py](63/unique_path_ii.go))|
 |120|[triangle](https://leetcode-cn.com/problems/triangle) | 动态规划([Go](120/triangle.go),[Py](120/triangle.go))|
-
+|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray) | 动态规划([Go](../Week_06/53/maximum_subarray.go),[Py](../Week_06/53/maximum_subarray.py)),分治([Go](../Week_06/53/maximum_subarray2.go),[Py](../Week_06/53/maximum_subarray2.py))|
+|152|[maximum-product-subarray](https://leetcode-cn.com/problems/maximum-product-subarray) | 动态规划([Go](../Week_06/152/maximum_product_subarray.go),[Py](../Week_06/152/maximum_product_subarray.py))|
+|322|[coin-change](https://leetcode-cn.com/problems/coin-change) | 动态规划([Go](322/coin_change.go),[Py](322/coin_change.py))|
+|198|[house-robber](https://leetcode-cn.com/problems/house-robber) | 动态规划([Go](198/house_robber.go),[Py](198/house_robber.py))|
+|121|[best-time-to-buy-and-sell-stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | 动态规划([Go](121/best_time_to_buy_and_sell_stock.go),[Py](121/best_time_to_buy_and_sell_stock.py))|
 
 ## 题解
 
@@ -21,12 +25,7 @@
   - dp[j] = pre+1 或者 max(dp[j], dp[j-1])
   
   
-### 213. house-robber-ii
 
-1. 动态规划:
-  - 两次动态规划dp(nums[:-1])、dp(nums[1:]),取两者之间的较大值
-  
-  
 ### 62. unique-paths
 
 1. 动态规划:
@@ -36,3 +35,33 @@
 ### 120. triangle
 
 1. 动态规划: 倒序递推:
+
+
+### 53. maximum-subarray
+
+1. 动态规划: dp[i] = nums[i] + max(0, dp[i-1])
+    
+2. 分治:
+
+
+### 152. maximum-product-subarray
+
+1. 动态规划: 用两个变量分别记录当前最小乘积和最大乘积
+
+### 322. coin_change
+
+1. 动态规划: 建立一个极值数组: dp = [amount+1] *(amount+1); dp[i] = min(dp[i], dp[i-c]+1)
+
+
+### 198. house-robber
+
+1. 动态规划:
+
+### 213. house-robber-ii
+
+1. 动态规划:
+  - 两次动态规划dp(nums[:-1])、dp(nums[1:]),取两者之间的较大值
+  
+  
+
+  
