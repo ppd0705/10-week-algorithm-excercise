@@ -50,6 +50,8 @@
 |45|200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](../Week_04/200/number_of_islands.go),[Py](../Week_04/200/number_of_islands.py))|
 |46|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray) | 迭代([Go](../Week_06/53/maximum_subarray.go),[Py](../Week_06/53/maximum_subarray.py)),分治([Go](../Week_06/53/maximum_subarray2.go),[Py](../Week_06/53/maximum_subarray2.py))|
 |47|127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](../Week_04/127/word_ladder.go)),双向广度优先([Go](../Week_04/127/word_ladder2.go),[Py](../Week_04/127/word_ladder2.py))|
+|48|15|[3sum](https://leetcode-cn.com/problems/3sum) | 双指针夹逼([Go](15/3sum.go),[Py](15/3sum.py))|
+|49|91|[decode-ways](https://leetcode-cn.com/problems/decode-ways) | 动态规划([Go](../Week_06/91/decode_ways.go),[Py](../Week_06/91/decode_ways.py))|
 
 ## 题解
 

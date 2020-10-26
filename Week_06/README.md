@@ -12,6 +12,7 @@
 |322|[coin-change](https://leetcode-cn.com/problems/coin-change) | 动态规划([Go](322/coin_change.go),[Py](322/coin_change.py))|
 |198|[house-robber](https://leetcode-cn.com/problems/house-robber) | 动态规划([Go](198/house_robber.go),[Py](198/house_robber.py))|
 |121|[best-time-to-buy-and-sell-stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | 动态规划([Go](121/best_time_to_buy_and_sell_stock.go),[Py](121/best_time_to_buy_and_sell_stock.py))|
+|91|[decode-ways](https://leetcode-cn.com/problems/decode-ways) | 动态规划([Go](91/decode_ways.go),[Py](91/decode_ways.py))|
 
 ## 题解
 
@@ -63,5 +64,10 @@
   - 两次动态规划dp(nums[:-1])、dp(nums[1:]),取两者之间的较大值
   
   
-
-  
+### 91. decode-ways
+1. 动态规划: 首先需要将这道题类比爬楼梯问题，可能只能走两步，可能只能走一步，可能一步两步都可能走
+    - 特殊处理s[i] == '0'
+       - 如果s[i-1] in ('1', '2')， 即走两步: dp[i+1] = dp[i-1]
+       - 否则不合法
+    - 当s[i-1] == '1' 或者 s[i-1] == '2' && '1' <= s[i] <= '6'， 即走一步或两步: dp[i+1] = dp[i] + dp[i-1]
+    - 否则走一步 dp[i+1] = dp[i]
