@@ -14,6 +14,7 @@
 |121|[best-time-to-buy-and-sell-stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | 动态规划([Go](121/best_time_to_buy_and_sell_stock.go),[Py](121/best_time_to_buy_and_sell_stock.py))|
 |91|[decode-ways](https://leetcode-cn.com/problems/decode-ways) | 动态规划([Go](91/decode_ways.go),[Py](91/decode_ways.py))|
 |123|[best-time-to-buy-and-sell-stock-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii) | 动态规划([Go](123/best_time_to_buy_and_sell_stock_iii.go),[Py](123/best_time_to_buy_and_sell_stock_iii.py)),动态规划2([Go](123/best_time_to_buy_and_sell_stock_iii_2.go),[Py](123/best_time_to_buy_and_sell_stock_iii_2.py))|
+|309|[best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | 动态规划([Go](309/best_time_to_buy_and_sell_stock_with_cooldown.go),[Py](309/best_time_to_buy_and_sell_stock_with_cooldown.py))|
 
 ## 题解
 
@@ -95,3 +96,16 @@
      - dp10 = max(dp10, dp11+prices[i])
      - dp21 = max(dp21, dp10-prices[i])
      - dp20 = max(dp20, dp21+prices[i])
+     
+     
+### 309. best-time-to-buy-and-sell-stock-with-cooldown
+1. 动态规划:
+  - 定义一个二维数：第i天是否买(1)或卖(0)
+  - 递推
+    - 第0，1天
+      - dp[0][1] = -prices[0]
+      - dp[1][0] = max(dp[0][0], dp[0][1]+prices[1])
+      - dp[1][1] = max(dp[0][1], dp[0][0]-prices[1])
+    - 第2~n天
+      - dp[i][1] = max(dp[i-1][1], dp[i-2][0]-prices[i])
+      - dp[i][0] = max(dp[i-1][0], dp[i-1][1]+prices[i])
