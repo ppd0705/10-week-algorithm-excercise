@@ -53,6 +53,7 @@
 |48|15|[3sum](https://leetcode-cn.com/problems/3sum) | 双指针夹逼([Go](15/3sum.go),[Py](15/3sum.py))|
 |49|91|[decode-ways](https://leetcode-cn.com/problems/decode-ways) | 动态规划([Go](../Week_06/91/decode_ways.go),[Py](../Week_06/91/decode_ways.py))|
 |50|547|[friend-circles](https://leetcode-cn.com/problems/friend-circles) | 深度优先([Go](547/friend_circles.go),[Py](547/friend_circles.py))|
+|51|367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](../Week_04/367/valid_perfect_square.go),[Py](../Week_04/367/valid_perfect_square.go))|
 
 ## 题解
 

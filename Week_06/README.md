@@ -15,6 +15,9 @@
 |91|[decode-ways](https://leetcode-cn.com/problems/decode-ways) | 动态规划([Go](91/decode_ways.go),[Py](91/decode_ways.py))|
 |123|[best-time-to-buy-and-sell-stock-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii) | 动态规划([Go](123/best_time_to_buy_and_sell_stock_iii.go),[Py](123/best_time_to_buy_and_sell_stock_iii.py)),动态规划2([Go](123/best_time_to_buy_and_sell_stock_iii_2.go),[Py](123/best_time_to_buy_and_sell_stock_iii_2.py))|
 |309|[best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | 动态规划([Go](309/best_time_to_buy_and_sell_stock_with_cooldown.go),[Py](309/best_time_to_buy_and_sell_stock_with_cooldown.py))|
+|188|[best-time-to-buy-and-sell-stock-iv](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv) | 动态规划([Go](188/best_time_to_buy_and_sell_stock_iv_2.go),[Py](188/best_time_to_buy_and_sell_stock_iv_2.py))|
+|714|[best-time-to-buy-and-sell-stock-with-transaction-fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | 动态规划([Go](714/best_time_to_buy_and_sell_stock_with_transaction_fee.go),[Py](714/best_time_to_buy_and_sell_stock_with_transaction_fee.py))|
+|279|[perfect-squares](https://leetcode-cn.com/problems/perfect-squares) | 动态规划([Go](279/perfect_squares.go),[Py](279/perfect_squares.py))|
 
 ## 题解
 
@@ -109,3 +112,15 @@
     - 第2~n天
       - dp[i][1] = max(dp[i-1][1], dp[i-2][0]-prices[i])
       - dp[i][0] = max(dp[i-1][0], dp[i-1][1]+prices[i])
+
+### 309. best-time-to-buy-and-sell-stock-iv
+1. 动态规划: #123的通用情况
+
+### 714. best-time-to-buy-and-sell-stock-with-transaction-fee
+1. 动态规划: 每一天只有持有和不持有两个状态，且只和前一天有关,故可以用两个变量hold和not_hold即可
+  - not_hold = max(not_hold, hold+prices[i])
+  - hold = max(hold, not_hold-prices[i]-fee)
+
+
+### 279. perfect-squares
+1. 动态规划: 类似于换硬币问题
