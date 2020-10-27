@@ -13,6 +13,7 @@
 |198|[house-robber](https://leetcode-cn.com/problems/house-robber) | 动态规划([Go](198/house_robber.go),[Py](198/house_robber.py))|
 |121|[best-time-to-buy-and-sell-stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | 动态规划([Go](121/best_time_to_buy_and_sell_stock.go),[Py](121/best_time_to_buy_and_sell_stock.py))|
 |91|[decode-ways](https://leetcode-cn.com/problems/decode-ways) | 动态规划([Go](91/decode_ways.go),[Py](91/decode_ways.py))|
+|123|[best-time-to-buy-and-sell-stock-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii) | 动态规划([Go](123/best_time_to_buy_and_sell_stock_iii.go),[Py](123/best_time_to_buy_and_sell_stock_iii.py)),动态规划2([Go](123/best_time_to_buy_and_sell_stock_iii_2.go),[Py](123/best_time_to_buy_and_sell_stock_iii_2.py))|
 
 ## 题解
 
@@ -71,3 +72,26 @@
        - 否则不合法
     - 当s[i-1] == '1' 或者 s[i-1] == '2' && '1' <= s[i] <= '6'， 即走一步或两步: dp[i+1] = dp[i] + dp[i-1]
     - 否则走一步 dp[i+1] = dp[i]
+
+
+### 123. best-time-to-buy-and-sell-stock-iii
+1. 动态规划: 
+  - 定义一个三维数组：第i天第j次买(0)或者卖(1)
+  - 递推公式
+    - 第0天 dp[i][j][1] = -prices[i]
+    - 第1~n天
+      - dp[i][j][1] = max(dp[i-1][j][1], dp[i-1][j-1][0]-prices[i])
+      - dp[i][j][0] = max(dp[i-1][j][0], dp[i-1][j][1]+prices[i])
+      
+2. 动态规划二：
+  因为最多只有两次交易，所以只需要定义四个变量 dp11(第一次买入)、dp10(第一次卖出)、dp21(第二次买入)、dp20(第二次卖出)
+  - 第0天：
+     - dp11 = -prices[0]
+     - dp10 = 0
+     - dp21 = -prices[0] （当做第0天买入两次卖出一次）
+     - dp20 = 0 （当做第0天买入两次卖出两次）
+  - 第1~n天:
+     - dp11 = max(dp11, -prices[i])
+     - dp10 = max(dp10, dp11+prices[i])
+     - dp21 = max(dp21, dp10-prices[i])
+     - dp20 = max(dp20, dp21+prices[i])
