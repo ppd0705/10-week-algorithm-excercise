@@ -21,6 +21,7 @@
 |518|[coin-change-2](https://leetcode-cn.com/problems/coin-change-2) | 动态规划([Go](518/coin_change_2.go),[Py](518/coin_change_2.py))|
 |221|[maximal-square](https://leetcode-cn.com/problems/maximal-square) | 动态规划([Go](221/maximal_square.go),[Py](221/maximal_square.py))|
 |621|[task-scheduler](https://leetcode-cn.com/problems/task-scheduler) | 数组([Go](621/task_scheduler.go),[Py](621/task_scheduler.py))|
+|647|[palindromic-substrings](https://leetcode-cn.com/problems/palindromic-substrings) | 动态规划([Go](647/palindromic_substrings.go),[Py](647/palindromic_substrings.py)), 中心扩展([Go](647/palindromic_substrings2.go),[Py](647/palindromic_substrings2.py))|
 
 ## 题解
 
@@ -142,4 +143,8 @@
   - 排序找到最大次数的task: counter[-1]
   - 则 res = (counter[-1]-1) * (n+1) + 1 + x  (x为其他的task出现次数也等于counter[-1])
   - 当任务种类比较多时可能出现res < len(tasks), 这是结果为len(tasks)
- 
+
+
+### 647. palindromic-substrings
+1. 动态规划: dp[i][j]代表[i,j]区间的子串是否是回文子串：s[i] == s[j] && (j - i < 2 || dp[i + 1][j - 1])
+2. 中心扩展: 长度为n的字符串会生成2n-1个中心点，其中l=i/2, r == l+ i%2
