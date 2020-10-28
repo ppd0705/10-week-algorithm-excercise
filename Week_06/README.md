@@ -22,6 +22,7 @@
 |221|[maximal-square](https://leetcode-cn.com/problems/maximal-square) | 动态规划([Go](221/maximal_square.go),[Py](221/maximal_square.py))|
 |621|[task-scheduler](https://leetcode-cn.com/problems/task-scheduler) | 数组([Go](621/task_scheduler.go),[Py](621/task_scheduler.py))|
 |647|[palindromic-substrings](https://leetcode-cn.com/problems/palindromic-substrings) | 动态规划([Go](647/palindromic_substrings.go),[Py](647/palindromic_substrings.py)), 中心扩展([Go](647/palindromic_substrings2.go),[Py](647/palindromic_substrings2.py))|
+|403|[frog-jump](https://leetcode-cn.com/problems/frog-jump) | 深度优先搜索([Go](403/frog_jump.go),[Py](403/frog_jump.py)), 动态规划([Go](403/frog_jump2.go),[Py](403/frog_jump2.py))|
 
 ## 题解
 
@@ -148,3 +149,8 @@
 ### 647. palindromic-substrings
 1. 动态规划: dp[i][j]代表[i,j]区间的子串是否是回文子串：s[i] == s[j] && (j - i < 2 || dp[i + 1][j - 1])
 2. 中心扩展: 长度为n的字符串会生成2n-1个中心点，其中l=i/2, r == l+ i%2
+
+### 403. frog-jump
+1. 深度优先
+2. 动态规划
+    - dp[i][k] = dp[j][k] || dp[j][k-1] || dp[j][k+1]; k = stones[i]-stones[j],k必定<=j+1
