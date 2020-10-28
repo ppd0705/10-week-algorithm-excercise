@@ -54,6 +54,7 @@
 |49|91|[decode-ways](https://leetcode-cn.com/problems/decode-ways) | 动态规划([Go](../Week_06/91/decode_ways.go),[Py](../Week_06/91/decode_ways.py))|
 |50|547|[friend-circles](https://leetcode-cn.com/problems/friend-circles) | 深度优先([Go](547/friend_circles.go),[Py](547/friend_circles.py))|
 |51|367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](../Week_04/367/valid_perfect_square.go),[Py](../Week_04/367/valid_perfect_square.go))|
+|52|198|[house-robber](https://leetcode-cn.com/problems/house-robber) | 动态规划([Go](../Week_06/198/house_robber.go),[Py](../Week_06/198/house_robber.py))|
 
 ## 题解
 
