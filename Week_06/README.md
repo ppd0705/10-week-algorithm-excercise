@@ -20,6 +20,7 @@
 |279|[perfect-squares](https://leetcode-cn.com/problems/perfect-squares) | 动态规划([Go](279/perfect_squares.go),[Py](279/perfect_squares.py))|
 |518|[coin-change-2](https://leetcode-cn.com/problems/coin-change-2) | 动态规划([Go](518/coin_change_2.go),[Py](518/coin_change_2.py))|
 |221|[maximal-square](https://leetcode-cn.com/problems/maximal-square) | 动态规划([Go](221/maximal_square.go),[Py](221/maximal_square.py))|
+|621|[task-scheduler](https://leetcode-cn.com/problems/task-scheduler) | 数组([Go](621/task_scheduler.go),[Py](621/task_scheduler.py))|
 
 ## 题解
 
@@ -134,3 +135,11 @@
 1. 动态规划: dp[i][j]代表以(i,j)为右下角的正方形边长
   - i == 0 or j == 0: dp[i][j] = int(matrix[i][j])
   - dp[i][j] = min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1]) + 1
+  
+### 621. task-scheduler
+1. 数组: 
+  - 用一个长度为26的数组counter记录每种task的次数
+  - 排序找到最大次数的task: counter[-1]
+  - 则 res = (counter[-1]-1) * (n+1) + 1 + x  (x为其他的task出现次数也等于counter[-1])
+  - 当任务种类比较多时可能出现res < len(tasks), 这是结果为len(tasks)
+ 
