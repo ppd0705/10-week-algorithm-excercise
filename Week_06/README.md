@@ -19,6 +19,7 @@
 |714|[best-time-to-buy-and-sell-stock-with-transaction-fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | 动态规划([Go](714/best_time_to_buy_and_sell_stock_with_transaction_fee.go),[Py](714/best_time_to_buy_and_sell_stock_with_transaction_fee.py))|
 |279|[perfect-squares](https://leetcode-cn.com/problems/perfect-squares) | 动态规划([Go](279/perfect_squares.go),[Py](279/perfect_squares.py))|
 |518|[coin-change-2](https://leetcode-cn.com/problems/coin-change-2) | 动态规划([Go](518/coin_change_2.go),[Py](518/coin_change_2.py))|
+|221|[maximal-square](https://leetcode-cn.com/problems/maximal-square) | 动态规划([Go](221/maximal_square.go),[Py](221/maximal_square.py))|
 
 ## 题解
 
@@ -128,3 +129,8 @@
 
 ### 518. coin-change-2
 1. 动态规划
+
+### 221. maximal-square
+1. 动态规划: dp[i][j]代表以(i,j)为右下角的正方形边长
+  - i == 0 or j == 0: dp[i][j] = int(matrix[i][j])
+  - dp[i][j] = min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1]) + 1
