@@ -6,6 +6,8 @@
 |212|[word-search-ii](https://leetcode-cn.com/problems/word-search-ii) | 前缀树+回溯([Go](../Week_07/212/word_search_ii.go),[Py](../Week_07/212/word_search_ii.py))|
 |547|[friend-circles](https://leetcode-cn.com/problems/friend-circles) | 深度优先([Go](../Week_07/547/friend_circles.go),[Py](../Week_07/547/friend_circles.py)),并查集([Go](../Week_07/547/friend_circles2.go),[Py](../Week_07/547/friend_circles2.py))|
 |130|[surrounded-regions](https://leetcode-cn.com/problems/surrounded-regions) | 深度优先([Go](../Week_07/130/surrounded_regions.go),[Py](../Week_07/130/surrounded_regions.py)),并查集([Go](../Week_07/130/surrounded_regions2.go))|
+|36|[valid-sudoku](https://leetcode-cn.com/problems/valid-sudoku) | 迭代([Go](../Week_07/36/valid_sudoku.go),[Py](../Week_07/36/valid_sudoku.py))|
+|37|[sudoku-solver](https://leetcode-cn.com/problems/sudoku-solver) | 回溯([Go](../Week_07/37/sudoku_solver.go),[Py](../Week_07/37/sudoku_solver.py))|
 
 
 ## 题解
@@ -28,3 +30,11 @@
 
 1. 深度优先搜索: 从边界上为"O"的点深度优先搜索
 2. 并查集
+
+### 36. valid-sudoku
+
+1. 迭代：使用三个9*9的数组记录每行、列、块是否合法，Golang可以使用`[9]uint16`压缩空间
+
+### 37. sudoku-solver
+
+1. 回溯
