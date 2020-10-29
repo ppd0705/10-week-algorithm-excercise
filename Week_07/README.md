@@ -9,6 +9,7 @@
 |36|[valid-sudoku](https://leetcode-cn.com/problems/valid-sudoku) | 迭代([Go](../Week_07/36/valid_sudoku.go),[Py](../Week_07/36/valid_sudoku.py))|
 |37|[sudoku-solver](https://leetcode-cn.com/problems/sudoku-solver) | 回溯([Go](../Week_07/37/sudoku_solver.go),[Py](../Week_07/37/sudoku_solver.py))|
 |1091|[shortest-path-in-binary-matrix](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix) | 广度优先搜索([Go](../Week_07/1091/shortest_path_in_binary_matrix.go),[Py](../Week_07/1091/shortest_path_in_binary_matrix.py))|
+|773|[sliding-puzzle](https://leetcode-cn.com/problems/sliding-puzzle) | 广度优先搜索([Go](../Week_07/773/sliding_puzzle.go),[Py](../Week_07/773/sliding_puzzle.py))|
 
 
 ## 题解
@@ -44,3 +45,7 @@
 ### 1091. shortest-path-in-binary-matrix
 
 1. 广度优先搜索
+
+### 773. sliding-puzzle
+
+1. 广度优先搜索: 使用一个字典记录每个index的邻居，后面就是每次移动`0`
