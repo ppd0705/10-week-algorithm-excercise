@@ -44,15 +44,15 @@
 |39|589|[n-ary-tree-preorder-traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | 递归([Go](../Week_02/589/n_ary_tree_preorder_traversal.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal.go)),栈([Go](../Week_02/589/n_ary_tree_preorder_traversal2.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal2.go))|
 |40|363|[max-sum-of-rectangle-no-larger-than-k](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k) | TODO|
 |41|33|[search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | 二分查找([Go](../Week_04/33/search_in_rotated_sorted_array.go),[Py](../Week_04/33/search_in_rotated_sorted_array.py))|
-|42|212|[word-search-ii](https://leetcode-cn.com/problems/word-search-ii) | 前缀树+回溯([Go](212/word_search_ii.go),[Py](212/word_search_ii.py))|
+|42|212|[word-search-ii](https://leetcode-cn.com/problems/word-search-ii) | 前缀树+回溯([Go](../Week_07/212/word_search_ii.go),[Py](../Week_07/212/word_search_ii.py))|
 |43|74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix) | 二分查找([Go](../Week_04/74/search_a_2d_matrix.go),[Py](../Week_04/74/search_a_2d_matrix.py))|
-|44|208|[implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree) | 前缀树([Go](208/implement_trie_prefix_tree.go),[Py](208/implement_trie_prefix_tree.py))|
+|44|208|[implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree) | 前缀树([Go](../Week_07/208/implement_trie_prefix_tree.go),[Py](../Week_07/208/implement_trie_prefix_tree.py))|
 |45|200|[numbers-of-islands](https://leetcode-cn.com/problems/numbers-of-islands) | 深度优先([Go](../Week_04/200/number_of_islands.go),[Py](../Week_04/200/number_of_islands.py))|
 |46|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray) | 迭代([Go](../Week_06/53/maximum_subarray.go),[Py](../Week_06/53/maximum_subarray.py)),分治([Go](../Week_06/53/maximum_subarray2.go),[Py](../Week_06/53/maximum_subarray2.py))|
 |47|127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](../Week_04/127/word_ladder.go)),双向广度优先([Go](../Week_04/127/word_ladder2.go),[Py](../Week_04/127/word_ladder2.py))|
 |48|15|[3sum](https://leetcode-cn.com/problems/3sum) | 双指针夹逼([Go](15/3sum.go),[Py](15/3sum.py))|
 |49|91|[decode-ways](https://leetcode-cn.com/problems/decode-ways) | 动态规划([Go](../Week_06/91/decode_ways.go),[Py](../Week_06/91/decode_ways.py))|
-|50|547|[friend-circles](https://leetcode-cn.com/problems/friend-circles) | 深度优先([Go](547/friend_circles.go),[Py](547/friend_circles.py))|
+|50|547|[friend-circles](https://leetcode-cn.com/problems/friend-circles) | 深度优先([Go](../Week_07/547/friend_circles.go),[Py](../Week_07/547/friend_circles.py)),并查集([Go](../Week_07/547/friend_circles2.go),[Py](../Week_07/547/friend_circles2.py))|
 |51|367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](../Week_04/367/valid_perfect_square.go),[Py](../Week_04/367/valid_perfect_square.go))|
 |52|198|[house-robber](https://leetcode-cn.com/problems/house-robber) | 动态规划([Go](../Week_06/198/house_robber.go),[Py](../Week_06/198/house_robber.py))|
 
