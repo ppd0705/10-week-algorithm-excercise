@@ -56,6 +56,7 @@
 |51|367|[valid-perfect-square](https://leetcode-cn.com/problems/valid-perfect-square) | 二分查找([Go](../Week_04/367/valid_perfect_square.go),[Py](../Week_04/367/valid_perfect_square.go))|
 |52|198|[house-robber](https://leetcode-cn.com/problems/house-robber) | 动态规划([Go](../Week_06/198/house_robber.go),[Py](../Week_06/198/house_robber.py))|
 |53|190|[reverse_bits](https://leetcode-cn.com/problems/reverse_bits) | 迭代([Go](190/reverse_bits.go),[Py](190/reverse_bits.py))|
+|54|24|[swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs)| 迭代([Go](../Week_01/24/swap_nodes_in_pairs2.go),[Py](../Week_01/24/swap_nodes_in_pairs2.py)), 递归([Go](../Week_01/24/swap_nodes_in_pairs.go),[Py](../Week_01/24/swap_nodes_in_pairs.py))|
 
 ## 题解
 
