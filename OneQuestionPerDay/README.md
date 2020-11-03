@@ -60,6 +60,7 @@
 |55|1122|[relative-sort-array](https://leetcode-cn.com/problems/relative-sort-array)| 计数排序([Go](1122/relative_sort_array.go),[Py](1122/relative_sort_array.py))|
 |56|718|[maximum-length-of-repeated-subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray)| 动态规划([Go](718/maximum_length_of_repeated_subarray.go),[Py](718/maximum_length_of_repeated_subarray.py)),滑动窗口([Go](718/maximum_length_of_repeated_subarray2.go),[Py](718/maximum_length_of_repeated_subarray2.py))|
 |57|387|[first-unique-character-in-a-string](https://leetcode-cn.com/problems/first-unique-character-in-a-string)| 迭代([Go](387/first_unique_character_in_a_string.go),[Py](387/first_unique_character_in_a_string.py))|
+|58|62|[unique-paths](https://leetcode-cn.com/problems/unique-paths) | 动态规划([Go](../Week_06/62/unique_paths.go),[Py](../Week_06/62/unique_paths.py))|
 
 ## 题解
 

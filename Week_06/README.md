@@ -3,10 +3,10 @@
 |#|Title|Solutions|
 |---|---|------|
 |1143|[longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence) | 递归([Go](1143/longest_common_subsequence.go),[Py](1143/longest_common_subsequence.py)),动态规划([Go](1143/longest_common_subsequence2.go),[Py](1143/longest_common_subsequence2.py)),动态规划2([Go](1143/longest_common_subsequence3.go),[Py](1143/longest_common_subsequence3.py))|
-|213|[house-robber-ii](https://leetcode-cn.com/problems/house-robber-ii) | 动态规划([Go](213/house_robber_ii.go),[Py](213/house_robber_ii.go))|
-|62|[unique-paths](https://leetcode-cn.com/problems/unique-paths) | 动态规划([Go](62/unique_paths.go),[Py](62/unique_paths.go))|
-|63|[unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii) | 动态规划([Go](63/unique_path_ii.go),[Py](63/unique_path_ii.go))|
-|120|[triangle](https://leetcode-cn.com/problems/triangle) | 动态规划([Go](120/triangle.go),[Py](120/triangle.go))|
+|213|[house-robber-ii](https://leetcode-cn.com/problems/house-robber-ii) | 动态规划([Go](213/house_robber_ii.go),[Py](213/house_robber_ii.py))|
+|62|[unique-paths](https://leetcode-cn.com/problems/unique-paths) | 动态规划([Go](62/unique_paths.go),[Py](62/unique_paths.py))|
+|63|[unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii) | 动态规划([Go](63/unique_path_ii.go),[Py](63/unique_path_ii.py))|
+|120|[triangle](https://leetcode-cn.com/problems/triangle) | 动态规划([Go](120/triangle.go),[Py](120/triangle.py))|
 |53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray) | 动态规划([Go](../Week_06/53/maximum_subarray.go),[Py](../Week_06/53/maximum_subarray.py)),分治([Go](../Week_06/53/maximum_subarray2.go),[Py](../Week_06/53/maximum_subarray2.py))|
 |152|[maximum-product-subarray](https://leetcode-cn.com/problems/maximum-product-subarray) | 动态规划([Go](../Week_06/152/maximum_product_subarray.go),[Py](../Week_06/152/maximum_product_subarray.py))|
 |322|[coin-change](https://leetcode-cn.com/problems/coin-change) | 动态规划([Go](322/coin_change.go),[Py](322/coin_change.py))|
