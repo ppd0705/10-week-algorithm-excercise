@@ -5,6 +5,7 @@
 |191|[number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits) | 依次除2([Go](../Week_08/191/number_of_1_bits.go),[Py](../Week_08/191/number_of_1_bits.py)),按位与n-1([Go](../Week_08/191/number_of_1_bits2.go),[Py](../Week_08/191/number_of_1_bits2.py))|
 |190|[reverse_bits](https://leetcode-cn.com/problems/reverse_bits) | 迭代([Go](../Week_08/190/reverse_bits.go),[Py](../Week_08/190/reverse_bits.py)),分治位运算([Go](../Week_08/190/reverse_bits2.go),[Py](../Week_08/190/reverse_bits2.py))|
 |338|[counting-bits](https://leetcode-cn.com/problems/counting-bits) | 动态规划1([Go](../Week_08/338/counting_bits.go),[Py](../Week_08/338/counting_bits.py)),动态规划2([Go](../Week_08/338/counting_bits2.go),[Py](../Week_08/338/counting_bits2.py))|
+|231|[power-of-two](https://leetcode-cn.com/problems/power-of-two) | 位运算1([Go](../Week_08/231/power_of_two.go),[Py](../Week_08/231/power_of_two.py)),位运算2([Go](../Week_08/231/power_of_two2.go),[Py](../Week_08/231/power_of_two2.py))|
 
 
 ## 题解
@@ -12,7 +13,7 @@
 ### 191. number-of-1-bits
 
 1. 除2：依次除2，看余数是否是1 
-2. 按位与n-1: n & n-1 为消去最后一位1
+2. 按位与n-1: n & n-1 会消去最后一个1
 
 ### 190. reverse-bits
 
@@ -23,3 +24,8 @@
 
 1. 动态规划1： dp[i] = dp[i//2] + i % 2
 2. 动态规划2： dp[i] = dp[i & (i-1)] + 1
+
+### 231. power-of-two
+
+1. 位运算1：  n & (n-1)为消去最后一个1
+2. 位运算2： n & -n会保留最后一个1，其他位都置0
