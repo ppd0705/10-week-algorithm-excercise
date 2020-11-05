@@ -1,5 +1,6 @@
 学习笔记
 
+
 |#|Title|Solutions|
 |---|---|------|
 |191|[number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits) | 依次除2([Go](../Week_08/191/number_of_1_bits.go),[Py](../Week_08/191/number_of_1_bits.py)),按位与n-1([Go](../Week_08/191/number_of_1_bits2.go),[Py](../Week_08/191/number_of_1_bits2.py))|
@@ -9,6 +10,9 @@
 |326|[power-of-three](https://leetcode-cn.com/problems/power-of-three) | 累除法([Go](../Week_08/326/power_of_three.go),[Py](../Week_08/326/power_of_three.py)),累乘法([Go](../Week_08/326/power_of_three2.go),[Py](../Week_08/326/power_of_three2.py))|
 |342|[power-of-four](https://leetcode-cn.com/problems/power-of-four) | 累除法([Go](../Week_08/342/power_of_four.go),[Py](../Week_08/342/power_of_four.py)),位运算([Go](../Week_08/342/power_of_four2.go),[Py](../Week_08/342/power_of_four2.py))|
 |146|[lru-cache](https://leetcode-cn.com/problems/lru-cache) | 双向链表+字典([Go](../Week_08/146/lru_cache.go),[Py](../Week_08/146/lru_cache.py))|
+|-1|[sort](sort) | 冒泡/选择/插入/归并/快速/归并排序([Go](../Week_08/sort/sort.go),[Py](../Week_08/sort/sort.py))|
+
+
 
 
 ## 题解
