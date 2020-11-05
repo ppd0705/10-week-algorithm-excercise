@@ -62,6 +62,7 @@
 |57|387|[first-unique-character-in-a-string](https://leetcode-cn.com/problems/first-unique-character-in-a-string)| 迭代([Go](387/first_unique_character_in_a_string.go),[Py](387/first_unique_character_in_a_string.py))|
 |58|62|[unique-paths](https://leetcode-cn.com/problems/unique-paths) | 动态规划([Go](../Week_06/62/unique_paths.go),[Py](../Week_06/62/unique_paths.py))|
 |59|541|[reverse-string-ii](https://leetcode-cn.com/problems/reverse-string-ii) | 迭代([Go](541/reverse_string_ii.go),[Py](541/reverse_string_ii.py))|
+|60|300|[longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence) | 动态规划([Go](300/longest_increasing_subsequence.go),[Py](300/longest_increasing_subsequence.py)),贪心+二分搜索([Go](300/longest_increasing_subsequence2.go),[Py](300/longest_increasing_subsequence2.py))|
 
 ## 题解
 
