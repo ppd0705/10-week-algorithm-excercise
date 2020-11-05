@@ -3,6 +3,7 @@
 
 |#|Title|Solutions|
 |---|---|------|
+|-1|[sort](sort) | 冒泡/选择/插入/归并/快速/归并排序([Go](../Week_08/sort/sort.go),[Py](../Week_08/sort/sort.py))|
 |191|[number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits) | 依次除2([Go](../Week_08/191/number_of_1_bits.go),[Py](../Week_08/191/number_of_1_bits.py)),按位与n-1([Go](../Week_08/191/number_of_1_bits2.go),[Py](../Week_08/191/number_of_1_bits2.py))|
 |190|[reverse_bits](https://leetcode-cn.com/problems/reverse_bits) | 迭代([Go](../Week_08/190/reverse_bits.go),[Py](../Week_08/190/reverse_bits.py)),分治位运算([Go](../Week_08/190/reverse_bits2.go),[Py](../Week_08/190/reverse_bits2.py))|
 |338|[counting-bits](https://leetcode-cn.com/problems/counting-bits) | 动态规划1([Go](../Week_08/338/counting_bits.go),[Py](../Week_08/338/counting_bits.py)),动态规划2([Go](../Week_08/338/counting_bits2.go),[Py](../Week_08/338/counting_bits2.py))|
@@ -10,8 +11,9 @@
 |326|[power-of-three](https://leetcode-cn.com/problems/power-of-three) | 累除法([Go](../Week_08/326/power_of_three.go),[Py](../Week_08/326/power_of_three.py)),累乘法([Go](../Week_08/326/power_of_three2.go),[Py](../Week_08/326/power_of_three2.py))|
 |342|[power-of-four](https://leetcode-cn.com/problems/power-of-four) | 累除法([Go](../Week_08/342/power_of_four.go),[Py](../Week_08/342/power_of_four.py)),位运算([Go](../Week_08/342/power_of_four2.go),[Py](../Week_08/342/power_of_four2.py))|
 |146|[lru-cache](https://leetcode-cn.com/problems/lru-cache) | 双向链表+字典([Go](../Week_08/146/lru_cache.go),[Py](../Week_08/146/lru_cache.py))|
-|-1|[sort](sort) | 冒泡/选择/插入/归并/快速/归并排序([Go](../Week_08/sort/sort.go),[Py](../Week_08/sort/sort.py))|
-
+|1122|[relative-sort-array](https://leetcode-cn.com/problems/relative-sort-array)| 计数排序([Go](../Week_08/1122/relative_sort_array.go),[Py](../Week_08/1122/relative_sort_array.py))|
+|56|[merge-intervals](https://leetcode-cn.com/problems/merge-intervals)| 计数排序([Go](../Week_08/56/merge_intervals.go),[Py](../Week_08/56/merge_intervals.py))|
+|453|[reverse-pairs](https://leetcode-cn.com/problems/reverse-pairs)| 二分查找和插入([Go](../Week_08/493/reverse_pairs.go),[Py](../Week_08/493/reverse_pairs.py))|
 
 
 
@@ -50,3 +52,8 @@
 ### 146. lru_cache
 
 1. 双向链表+字典
+
+
+### 493. reverse-pairs
+
+1. 二分查找: 逆序遍历nums, num[i]在有序数组arr的位置即为nums[i]的对数,随后将num[i]*2二分查找插入arr
