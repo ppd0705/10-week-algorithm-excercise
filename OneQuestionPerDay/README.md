@@ -63,6 +63,8 @@
 |58|62|[unique-paths](https://leetcode-cn.com/problems/unique-paths) | 动态规划([Go](../Week_06/62/unique_paths.go),[Py](../Week_06/62/unique_paths.py))|
 |59|541|[reverse-string-ii](https://leetcode-cn.com/problems/reverse-string-ii) | 迭代([Go](541/reverse_string_ii.go),[Py](541/reverse_string_ii.py))|
 |60|300|[longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence) | 动态规划([Go](300/longest_increasing_subsequence.go),[Py](300/longest_increasing_subsequence.py)),贪心+二分搜索([Go](300/longest_increasing_subsequence2.go),[Py](300/longest_increasing_subsequence2.py))|
+|61|15|[3sum](https://leetcode-cn.com/problems/3sum) | 双指针夹逼([Go](15/3sum.go),[Py](15/3sum.py))|
+|62|680|[valid-palindrome-ii](https://leetcode-cn.com/problems/valid-palindrome-ii) | 双指针夹逼([Go](680/valid_palindrome_ii.go),[Py](680/valid_palindrome_ii.py))|
 
 ## 题解
 
