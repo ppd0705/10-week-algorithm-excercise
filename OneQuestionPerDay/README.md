@@ -38,7 +38,7 @@
 |33|1143|[longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence) | 递归([Go](../Week_06/1143/longest_common_subsequence.go),[Py](../Week_06/1143/longest_common_subsequence.py)),动态规划([Go](../Week_06/1143/longest_common_subsequence2.go),[Py](../Week_06/1143/longest_common_subsequence2.py)),动态规划2([Go](../Week_06/1143/longest_common_subsequence3.go),[Py](../Week_06/1143/longest_common_subsequence3.py))|
 |34|74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix) | 二分查找([Go](../Week_04/74/search_a_2d_matrix.go),[Py](../Week_04/74/search_a_2d_matrix.py))|
 |35|LCOF5|[replace-space](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof) | 新建一个buff([Go](LCOF5/replace_space.go),[Py](LCOF5/replace_space.go))|
-|36|64|[minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum) | 动态规划([Go](64/minimum_path_sum.go),[Py](64/minimum_path_sum.py))|
+|36|64|[minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum) | 动态规划([Go](../Week_09/64/minimum_path_sum.go),[Py](../Week_09/64/minimum_path_sum.py))|
 |37|322|[coin-change](https://leetcode-cn.com/problems/coin-change) | 递推([Go](../Week_04/322/coin_change.go),[Py](../Week_04/322/coin_change.py)),递归([Go](../Week_04/322/coin_change2.go),[Py](../Week_04/322/coin_change2.py))|
 |38|213|[house-robber-ii](https://leetcode-cn.com/problems/house-robber-ii) | 动态规划([Go](../Week_06/213/house_robber_ii.go),[Py](../Week_06/213/house_robber_ii.go))|
 |39|589|[n-ary-tree-preorder-traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | 递归([Go](../Week_02/589/n_ary_tree_preorder_traversal.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal.go)),栈([Go](../Week_02/589/n_ary_tree_preorder_traversal2.go),[Py](../Week_02/589/n_ary_tree_preorder_traversal2.go))|
@@ -68,6 +68,7 @@
 |63|32|[longest-valid-parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses) | 动态规划([Go](../Week_09/32/longest_valid_parentheses.go),[Py](../Week_09/32/longest_valid_parentheses.py)),栈([Go](../Week_09/32/longest_valid_parentheses2.go),[Py](../Week_09/32/longest_valid_parentheses2.py)),贪心([Go](../Week_09/32/longest_valid_parentheses3.go),[Py](../Week_09/32/longest_valid_parentheses3.py))|
 |64|83|[remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) | 迭代([Go](83/remove_duplicates_from_sorted_list.go),[Py](83/remove_duplicates_from_sorted_list.py))|
 |65|120|[triangle](https://leetcode-cn.com/problems/triangle) | 动态规划([Go](../Week_06/120/triangle.go),[Py](../Week_06/120/triangle.py))|
+|66|127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](../Week_04/127/word_ladder.go)),双向广度优先([Go](../Week_04/127/word_ladder2.go),[Py](../Week_04/127/word_ladder2.py))|
 
 ## 题解
 
