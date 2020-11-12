@@ -69,6 +69,7 @@
 |64|83|[remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) | 迭代([Go](83/remove_duplicates_from_sorted_list.go),[Py](83/remove_duplicates_from_sorted_list.py))|
 |65|120|[triangle](https://leetcode-cn.com/problems/triangle) | 动态规划([Go](../Week_06/120/triangle.go),[Py](../Week_06/120/triangle.py))|
 |66|127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](../Week_04/127/word_ladder.go)),双向广度优先([Go](../Week_04/127/word_ladder2.go),[Py](../Week_04/127/word_ladder2.py))|
+|67|46|[permutations](https://leetcode-cn.com/problems/permutations) | 递归([Go](../Week_03/46/permutations.go),[Py](../Week_03/46/permutations.py))|
 
 ## 题解
 
