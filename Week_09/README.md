@@ -8,6 +8,13 @@
 |72|[edit-distance](https://leetcode-cn.com/problems/edit-distance) | 动态规划([Go](72/edit_distance.go),[Py](72/edit_distance.py))|
 |85|[maximal-rectangle](https://leetcode-cn.com/problems/maximal-rectangle) | 动态规划([Go](85/maximal_rectangle.go),[Py](85/maximal_rectangle.py))|
 |115|[distinct-subsequences](https://leetcode-cn.com/problems/distinct-subsequences) | 动态规划([Go](115/distinct_subsequences.go),[Py](115/distinct_subsequences.py))|
+|58|[length-of-last-word](https://leetcode-cn.com/problems/length-of-last-word) | 逆序迭代([Go](58/length_of_last_word.go),[Py](58/length_of_last_word.py))|
+|709|[to-lower-case](https://leetcode-cn.com/problems/to-lower-case) | 迭代([Go](709/to_lower_case.go),[Py](709/to_lower_case.py))|
+|8|[string-to-integer-atoi](https://leetcode-cn.com/problems/string-to-integer-atoi) | 迭代([Go](8/string_to_integer_atoi.go),[Py](8/string_to_integer_atoi.py))|
+|14|[longest-common-prefix](https://leetcode-cn.com/problems/longest-common-prefix) | 迭代([Go](14/longest_common_prefix.go),[Py](14/longest_common_prefix.py))|
+|344|[reverse-string](https://leetcode-cn.com/problems/reverse-string) | 双指针([Go](344/reverse_string.go),[Py](344/reverse_string.py))|
+|541|[reverse-string-ii](https://leetcode-cn.com/problems/reverse-string-ii) | 迭代([Go](../Week_09/541/reverse_string_ii.go),[Py](../Week_09/541/reverse_string_ii.py))|
+|557|[reverse-words-in-a-string-iii](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii) | 迭代([Go](../Week_09/557/reverse_words_in_a_string_iii.go),[Py](../Week_09/557/reverse_words_in_a_string_iii.py))|
 
 
 
