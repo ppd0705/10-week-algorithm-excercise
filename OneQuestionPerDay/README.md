@@ -71,6 +71,8 @@
 |66|127|[word-ladder](https://leetcode-cn.com/problems/word-ladder) | 广度优先([Go](../Week_04/127/word_ladder.go)),双向广度优先([Go](../Week_04/127/word_ladder2.go),[Py](../Week_04/127/word_ladder2.py))|
 |67|46|[permutations](https://leetcode-cn.com/problems/permutations) | 递归([Go](../Week_03/46/permutations.go),[Py](../Week_03/46/permutations.py))|
 |68|122|[best-time-to-buy-and-sell-stock-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) | 贪心([Go](../Week_04/122/best_time_to_buy_and_sell_stock_ii.go),[Py](../Week_04/122/best_time_to_buy_and_sell_stock_ii.py))|
+|69|238|[product-of-array-except-self](https://leetcode-cn.com/problems/product-of-array-except-self) | 迭代([Go](238/product_of_array_except_self.go),[Py](238/product_of_array_except_self.py))|
+|70|239|[sliding-window-maximum](https://leetcode-cn.com/problems/sliding-window-maximum) | 单调递减队列([Go](../Week_01/239/sliding_window_maximum.go), [Py](../Week_01/239/sliding_window_maximum.py))|
 
 ## 题解
 
