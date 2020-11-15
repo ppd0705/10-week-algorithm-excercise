@@ -34,9 +34,6 @@
     - 先从左向右遍历，遇到'('则left++,否则right++,当left==right为可能的解，right>left时将left/right重置为0
     - 从右向左遍历亦然
     
-    
-## 题解
-
 ### 72. edit-distance
 
 1. 动态规划：
