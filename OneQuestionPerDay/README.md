@@ -64,7 +64,7 @@
 |59|541|[reverse-string-ii](https://leetcode-cn.com/problems/reverse-string-ii) | 迭代([Go](../Week_09/541/reverse_string_ii.go),[Py](../Week_09/541/reverse_string_ii.py))|
 |60|300|[longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence) | 动态规划([Go](300/longest_increasing_subsequence.go),[Py](300/longest_increasing_subsequence.py)),贪心+二分搜索([Go](300/longest_increasing_subsequence2.go),[Py](300/longest_increasing_subsequence2.py))|
 |61|15|[3sum](https://leetcode-cn.com/problems/3sum) | 双指针夹逼([Go](15/3sum.go),[Py](15/3sum.py))|
-|62|680|[valid-palindrome-ii](https://leetcode-cn.com/problems/valid-palindrome-ii) | 双指针夹逼([Go](680/valid_palindrome_ii.go),[Py](680/valid_palindrome_ii.py))|
+|62|680|[valid-palindrome-ii](https://leetcode-cn.com/problems/valid-palindrome-ii) | 双指针夹逼([Go](../Week_09/680/valid_palindrome_ii.go),[Py](../Week_09/680/valid_palindrome_ii.py))|
 |63|32|[longest-valid-parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses) | 动态规划([Go](../Week_09/32/longest_valid_parentheses.go),[Py](../Week_09/32/longest_valid_parentheses.py)),栈([Go](../Week_09/32/longest_valid_parentheses2.go),[Py](../Week_09/32/longest_valid_parentheses2.py)),贪心([Go](../Week_09/32/longest_valid_parentheses3.go),[Py](../Week_09/32/longest_valid_parentheses3.py))|
 |64|83|[remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) | 迭代([Go](83/remove_duplicates_from_sorted_list.go),[Py](83/remove_duplicates_from_sorted_list.py))|
 |65|120|[triangle](https://leetcode-cn.com/problems/triangle) | 动态规划([Go](../Week_06/120/triangle.go),[Py](../Week_06/120/triangle.py))|

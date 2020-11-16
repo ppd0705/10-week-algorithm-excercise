@@ -17,6 +17,8 @@
 |557|[reverse-words-in-a-string-iii](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii) | 迭代([Go](../Week_09/557/reverse_words_in_a_string_iii.go),[Py](../Week_09/557/reverse_words_in_a_string_iii.py))|
 |917|[reverse-only-letters](https://leetcode-cn.com/problems/reverse-only-letters) | 双指针([Go](../Week_09/917/reverse_only_letters.go),[Py](../Week_09/917/reverse_only_letters.py))|
 |438|[find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string) | 暴力([Go](../Week_09/438/find_all_anagrams_in_a_string.go),滑动窗口([Go](../Week_09/438/find_all_anagrams_in_a_string2.go),[Py](../Week_09/438/find_all_anagrams_in_a_string2.py))|
+|125|[valid-palindrome](https://leetcode-cn.com/problems/valid-palindrome) | 双指针([Go](../Week_09/125/valid_palindrome.go),[Py](../Week_09/125/valid_palindrome.py))|
+|680|[valid-palindrome-ii](https://leetcode-cn.com/problems/valid-palindrome-ii) | 双指针夹逼([Go](../Week_09/680/valid_palindrome_ii.go),[Py](../Week_09/680/valid_palindrome_ii.py))|
 
 
 
