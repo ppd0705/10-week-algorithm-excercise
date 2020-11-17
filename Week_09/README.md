@@ -19,6 +19,7 @@
 |438|[find-all-anagrams-in-a-string](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string) | 暴力([Go](../Week_09/438/find_all_anagrams_in_a_string.go),滑动窗口([Go](../Week_09/438/find_all_anagrams_in_a_string2.go),[Py](../Week_09/438/find_all_anagrams_in_a_string2.py))|
 |125|[valid-palindrome](https://leetcode-cn.com/problems/valid-palindrome) | 双指针([Go](../Week_09/125/valid_palindrome.go),[Py](../Week_09/125/valid_palindrome.py))|
 |680|[valid-palindrome-ii](https://leetcode-cn.com/problems/valid-palindrome-ii) | 双指针夹逼([Go](../Week_09/680/valid_palindrome_ii.go),[Py](../Week_09/680/valid_palindrome_ii.py))|
+|5|[longest-palindromic-substring](https://leetcode-cn.com/problems/longest-palindromic-substring) | 动态规划([Go](../Week_09/5/longest_palindromic_substring.go),[Py](../Week_09/5/longest_palindromic_substring.py)),中心扩展([Go](../Week_09/5/longest_palindromic_substring2.go),[Py](../Week_09/5/longest_palindromic_substring2.py))|
 
 
 
