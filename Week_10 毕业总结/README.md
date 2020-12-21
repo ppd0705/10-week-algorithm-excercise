@@ -1,6 +1,15 @@
-首先是为自己感到高兴吧！作为一个报名了第五期而没有参与的老学员，重新鼓起勇气报名了第十六期，作为一个留级生，
-努力跟上节奏，认证对待每一道题，同时用Golang和Python做了解答。感谢助教每一周的优秀作业推荐都推荐了我，感谢被看到
+学习笔记
 
-其次是希望自己继续刷题，践行五毒神掌，作为一个非科班程序员，终身学习下去。
 
-最后感谢老师和助教的引路，班班和同学们的陪伴！
+|#|Title|Solutions|
+|---|---|------|
+|990|[satisfiability-of-equality-equations](https://leetcode-cn.com/problems/satisfiability-of-equality-equations) | 并查集([Go](./990/satisfiability_of_equality_equations.go)）|
+|721|[accounts-merge](https://leetcode-cn.com/problems/accounts-merge) | 并查集([Go](./721/accounts_merge.go)）|
+
+
+## 题解
+
+### 721. Accounts Merge
+
+1. 并查集：
+    使用一个字典记录email对应账户的index,如果已经在字典里面出现了，就说明需要合并用户
