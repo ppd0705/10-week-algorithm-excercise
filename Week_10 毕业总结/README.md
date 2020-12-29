@@ -5,6 +5,8 @@
 |---|---|------|
 |990|[satisfiability-of-equality-equations](https://leetcode-cn.com/problems/satisfiability-of-equality-equations) | 并查集([Go](./990/satisfiability_of_equality_equations.go)）|
 |721|[accounts-merge](https://leetcode-cn.com/problems/accounts-merge) | 并查集([Go](./721/accounts_merge.go)）|
+|979|[distribute-coins-in-binary-tree](https://leetcode-cn.com/problems/distribute-coins-in-binary-tree) | 深度优先([Go](./979/distribute_coins_in_binary_tree.go)）|
+|240|[search-a-2d-matrix-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii) | 二分查找([Go](./240/search_a_2d_matrix_ii.go)）|
 
 
 ## 题解
@@ -13,3 +15,7 @@
 
 1. 并查集：
     使用一个字典记录email对应账户的index,如果已经在字典里面出现了，就说明需要合并用户
+    
+### 240. search-a-2d-matrix-ii
+
+1. 二分查找：为保证单调性，只能从左下角或者右上角开始查找
