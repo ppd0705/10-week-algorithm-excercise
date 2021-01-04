@@ -10,6 +10,7 @@
 |416|[partition-equal-subset-sum](https://leetcode-cn.com/problems/partition-equal-subset-sumi) | 递推([Go](./416/partition_equal_subset_sum.go)）|
 |23|[merge-k-sorted-lists](https://leetcode-cn.com/problems/merge-k-sorted-lists) | 迭代([Go](./23/merge_k_sorted_lists.go)), 小顶堆([Go](./23/merge_k_sorted_lists2.go))|
 |215|[kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | 大顶堆([Go](./215/kth_largest_element_in_an_array.go),[Py](./215/kth_largest_element_in_an_array.py))|
+|973|[k-closest-points-to-origin](https://leetcode-cn.com/problems/k-closest-points-to-origin) | 大顶堆([Go](./973/k_closest_points_to_origin.go))|
 
 
 ## 题解
