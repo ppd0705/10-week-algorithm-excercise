@@ -49,7 +49,7 @@
 1. 动态规划：
     - 使用三个数组left[n], right[n],height[n]分别记录当前的左右边界和高
     
-### 85. distinct-subsequences
+### 115. distinct-subsequences
 
 1. 动态规划：
     - 当s[i-1] != t[j-1]时： dp[i][j] = dp[i-1][j] (不取s[j]) 否则 dp[i][j] = dp[i-1][j] + dp[i-1][j-1]
