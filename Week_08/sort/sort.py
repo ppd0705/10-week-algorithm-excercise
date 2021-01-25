@@ -48,27 +48,32 @@ def merge_sort(nums):
     if len(nums) < 2:
         return nums
     mid = len(nums) // 2
-    merge(merge_sort(nums[:mid]), merge_sort(nums[mid:]))
+    return merge(merge_sort(nums[:mid]), merge_sort(nums[mid:]))
 
 
-def partition(nums):
-    pivot_index = 0
+def partition(nums, left, right):
+    pivot_index = left
     pivot = nums[pivot_index]
     j = pivot_index + 1
-    for i in range(j, len(nums)):
+    for i in range(j, right + 1):
         if nums[i] < pivot:
-            nums[i], nums[j] = nums[i], nums[j]
+            nums[i], nums[j] = nums[j], nums[i]
             j += 1
+
     nums[j - 1], nums[pivot_index] = nums[pivot_index], nums[j - 1]
     return j - 1
 
 
-def quick_sort(nums):
-    if len(nums) < 2:
+def _quick_sort(nums, left, right):
+    if left >= right:
         return
-    partition_index = partition(nums)
-    quick_sort(nums[:partition_index])
-    quick_sort(nums[partition_index + 1:])
+    partition_index = partition(nums, left, right)
+    _quick_sort(nums, left, partition_index - 1)
+    _quick_sort(nums, partition_index + 1, right)
+
+
+def quick_sort(nums):
+    _quick_sort(nums, 0, len(nums) - 1)
 
 
 def heapify(parent_index, length, nums):
@@ -95,5 +100,6 @@ def heap_sort(nums):
 
 if __name__ == "__main__":
     arr = [4, 6, 5, 1, 3, 2]
-    heap_sort(arr)
+    # heap_sort(arr)
+    quick_sort(arr)
     print(arr)

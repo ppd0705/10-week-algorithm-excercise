@@ -117,6 +117,7 @@ func heapSort(nums []int) {
 		heapify(nums, 0, i-1)
 	}
 }
+
 func main() {
 	nums := []int{4, 6, 5, 1, 3, 2}
 	//fmt.Printf("ans: %v\n", mergeSort(nums))
