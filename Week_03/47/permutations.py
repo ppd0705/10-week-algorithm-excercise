@@ -4,7 +4,6 @@ from typing import List
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         ans = []
-        len(nums)
         option = [0] * len(nums)
         elements = {}
         for n in nums:

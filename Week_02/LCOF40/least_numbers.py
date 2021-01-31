@@ -9,7 +9,7 @@ class Solution:
         if n == 0 or n == k:
             return arr
 
-        for i in range(n // 2 - 1, -1, -1):
+        for i in range(k // 2 - 1, -1, -1):
             self.heapify(arr, i, k - 1)
 
         for i in range(k, n):
